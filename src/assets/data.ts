@@ -1,4 +1,4 @@
-const initialJokesArr = [
+export const initialJokesArr = [
     {
         "category": "Programming",
         "type": "single",
@@ -48,5 +48,3 @@ const initialJokesArr = [
         "lang": "en"
       },
 ];
-
-export default initialJokesArr;

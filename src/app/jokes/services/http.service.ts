@@ -1,15 +1,18 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { map } from 'rxjs/operators';
+import { map, tap } from 'rxjs/operators';
 
 export interface Joke {
-  id: number | string;
+  id: number;
   joke: string;
   safe: boolean;
   type: string;
   flags: {};
   lang: string;
+  category: string;
+  show: boolean;
+  selected: boolean;
 }
 
 export interface ApiResponse {
@@ -30,7 +33,9 @@ export class HttpService {
   getJokes(): Observable<Joke[]>{
     return this.http.get<ApiResponse>(this.api)
     .pipe(
-      map((data: ApiResponse) => data.error ? [] : data.jokes)
-      );
+      map((data: ApiResponse) => data.error ? [] : data.jokes),
+      tap((data: Joke[]) => data.map(j => j.show = false)),
+      tap((data: Joke[]) => data.map(j => j.selected = false))
+    );
   }
 }

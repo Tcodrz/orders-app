@@ -1,0 +1,18 @@
+.row {
+    justify-content: space-evenly;
+}
+.card {
+    width: 80%;
+    margin: 5px 10px;
+}
+.card-header {
+    padding: 0 1rem;
+    height: 1.7rem;
+}
+.btn-sm {
+    padding: .01rem .5rem;
+}
+.util-btn {
+    margin: 0 auto;
+    border: none;
+}

@@ -14,7 +14,7 @@ import { JokesModule } from './jokes/jokes.module';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    JokesModule
+    JokesModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
