@@ -1,7 +1,8 @@
+import { repeat, tap } from 'rxjs/operators';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
-import { map, tap } from 'rxjs/operators';
+import { Observable, of } from 'rxjs';
+import { map } from 'rxjs/operators';
 
 export interface Joke {
   id: number;
@@ -13,6 +14,7 @@ export interface Joke {
   category: string;
   show: boolean;
   selected: boolean;
+  edit: boolean;
 }
 
 export interface ApiResponse {
@@ -30,12 +32,22 @@ export class HttpService {
 
   constructor(private http: HttpClient) { }
 
-  getJokes(): Observable<Joke[]>{
+  /**
+   * Takes a number of pages and returns an array of jokes
+   * each page contain 10 jokes
+   * @param pages the amount of pages to receive, each page contains 10 jokes
+   * @returns an array of jokes
+   */
+  getJokes(pages: number): Observable<Joke[]>{
     return this.http.get<ApiResponse>(this.api)
     .pipe(
+      repeat(pages),
       map((data: ApiResponse) => data.error ? [] : data.jokes),
-      tap((data: Joke[]) => data.map(j => j.show = false)),
-      tap((data: Joke[]) => data.map(j => j.selected = false))
+      map((data: Joke[]) => data.map(j => ({...j, selected: false, show: false, edit: false}))),
     );
+  }
+
+  removeJoke(joke: Joke): Observable<Joke> {
+    return of(joke);
   }
 }

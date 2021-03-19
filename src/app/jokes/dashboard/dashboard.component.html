@@ -1,42 +1,23 @@
 <div class="container">
-    <div class="mt-5">
-        <h1 class="d-inline ">My Jokes</h1>
-        <hr>
-    </div>
+    <app-header></app-header>
     <div class="row mt-3">
-        <div class="card" *ngFor="let joke of jokes$ | async">
-            <div class="card-header bg-primary text-light">
-                <div class="float-right">
-                    <input type="checkbox" class="form-check-input" [checked]="joke.selected"
-                        (change)="joke.selected ? unSelect(joke) : selectJoke(joke)">
-                </div>
-                <div class="float-right">
-                    <button class="btn btn-sm btn-outline-warning mr-2 util-btn" *ngIf="joke.selected">
-                        <fa-icon [icon]="icons.faEdit"></fa-icon>
-                    </button>
-                    <button class="btn btn-sm btn-outline-danger mr-4 util-btn" *ngIf="joke.selected"
-                        (click)="removeJoke(joke)">
-                        <fa-icon [icon]="icons.faTrash"></fa-icon>
-                    </button>
-                    <button class="btn btn-sm btn-outline-light mr-4 util-btn" *ngIf="!joke.show"
-                        (click)="showContent(joke)">
-                        <fa-icon [icon]="icons.faChevronDown"></fa-icon>
-                    </button>
-                </div>
-                <span class="font-weight-bold">
-                    Joke Category:
-                </span>
-                {{ joke.category }}
-            </div>
-            <div class="card-body" *ngIf="joke.show">
-                {{ joke.joke }}
-                <br>
-                <button class="btn btn-sm btn-outline-primary float-right" (click)="hideContent(joke)">Hide</button>
-            </div>
-        </div>
+        <app-joke-card 
+            class="joke-card" 
+            *ngFor="let joke of jokes$ | async let i = index" 
+            [currentjoke]="joke"
+            [index]="i"
+            (selectJoke)="selectJoke($event)"
+            (unSelectJoke)="unSelect($event)"
+            (hideContent)="hideContent($event)"
+            (showContent)="showContent($event)"
+            (removeJoke)="removeJoke($event)"
+            (editJoke)="editJoke($event)"
+            (submitJoke)="updateJoke($event)"
+            (cancel)="cancelJokeEdit($event)">
+        </app-joke-card>
     </div>
-    <div>
-        <input type="button" class="btn btn-sm btn-success float-right mt-3 mb-3" value="LOAD MORE JOKES"
+    <div class="row">
+        <input type="button" class="btn btn btn-outline-success mt-3 mb-3" value="LOAD MORE JOKES"
             (click)="load()" />
     </div>
 </div>
