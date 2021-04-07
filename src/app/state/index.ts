@@ -1,10 +1,13 @@
-import { ActionReducerMap } from "@ngrx/store";
-import { jokesReducer, JokesState } from "./jokes/jokes.reducer";
+import { ActionReducerMap } from '@ngrx/store';
+import { filterReducer, FilterState } from './filters/filter.reducer';
+import { ordersReducer, OrdersState } from './orders/orders.rducer';
 
 export interface AppState {
-    jokes: JokesState;
+    orders: OrdersState;
+    filters: FilterState;
 }
 
 export const reducers: ActionReducerMap<AppState> = {
-    jokes: jokesReducer
-}
+    orders: ordersReducer,
+    filters: filterReducer
+};

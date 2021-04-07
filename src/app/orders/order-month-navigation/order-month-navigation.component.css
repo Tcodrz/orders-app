@@ -1,0 +1,58 @@
+.mat-card {
+    padding-bottom: 0;
+}
+.month-nav {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0 !important;
+}
+
+.left-btn {
+    width: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.right-btn {
+    width: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icon {
+    font-size: 2rem;
+}
+.total-sales {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.amount {
+    width: fit-content;
+    font-size: 2rem;
+    margin-top: 4px;
+    margin-bottom: 13px;
+}
+
+.current-month {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.date {
+    background-color: rgb(255,255,255);
+    width: fit-content;
+    z-index: 5;
+    padding: 0 15px;
+}
+.divider {
+    top: 70px;
+}

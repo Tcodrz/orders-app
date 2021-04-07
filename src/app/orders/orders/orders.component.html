@@ -1,0 +1,27 @@
+<div>
+    <app-orders-navbar></app-orders-navbar>
+</div>
+<div class="navigation dashboard-item">
+    <app-order-month-navigation [filterObject]="filterObject" [monthlySales]="totalClosedOrdersPrice$"
+        (back)="navigate(true)" (forward)="navigate(false)">
+    </app-order-month-navigation>
+</div>
+<div class="">
+    <div class="dashboard-item">
+        <app-orders-filter [filterObj]="filterObject" (filter)="handleFilter($event)"></app-orders-filter>
+    </div>
+    <div class="dashboard-item">
+        <app-orders-active-filters (removeFilter)="handleFilter($event)" [filter]="filterObject">
+        </app-orders-active-filters>
+    </div>
+    <div class="dashboard-item orders-list">
+        <app-order-list [orders]="orders$" (sortByDate)="sortOrders('date')" (sortByPrice)="sortOrders('price')"
+            (sortByStatus)="sortOrders('status')" (removeOrder)="removeOrder($event)">
+        </app-order-list>
+    </div>
+    <div class="dashboard-item orders-details">
+        <app-orders-details [openedOrdersTotal]="totalOpenOrdersPrice$" [allOrdersTotal]="monthlySales"
+            [closedOrdersTotal]="totalClosedOrdersPrice$" [amountOfOrders]="ordersAmount$">
+        </app-orders-details>
+    </div>
+</div>

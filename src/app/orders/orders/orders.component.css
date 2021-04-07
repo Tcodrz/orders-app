@@ -1,0 +1,18 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -53px;
+}
+
+.orders-list {
+    margin-top: 1rem;
+}
+.orders-details {
+    flex-direction: row-reverse;
+    text-align: right;
+    margin-top: 2rem;
+}
+.dashboard-item {
+    padding: 0 8rem;
+}

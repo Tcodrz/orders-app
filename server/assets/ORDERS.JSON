@@ -1,0 +1,3002 @@
+[
+    {
+        "id": "S19-0132",
+        "date": "12/30/2019",
+        "advertiserId": 97,
+        "contactId": 32,
+        "customerId": 19,
+        "campaign": "nascetur ridiculus",
+        "status": "closed",
+        "type": "a nibh in",
+        "invoiceNumber": "0564267805",
+        "price": 3243,
+        "discount": 4,
+        "generalNotes": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.",
+        "bookkeepingNotes": "interdum eu",
+        "narratorsId": [
+            19,
+            19,
+            9
+        ],
+        "narratorsPrice": 1279,
+        "numberOfVersion": 2,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "quisque porta",
+            "text": "nascetur ridiculus",
+            "music": "ut mauris"
+        },
+        "usagePeriod": "nunc",
+        "music": "velit id pretium iaculis diam erat fermentum",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "W69-7095",
+        "date": "1/16/2020",
+        "advertiserId": 63,
+        "contactId": 13,
+        "customerId": 39,
+        "campaign": "porttitor lacus",
+        "status": "open",
+        "type": "magna vulputate luctus",
+        "invoiceNumber": "3442633133",
+        "price": 1266,
+        "discount": 5,
+        "generalNotes": "Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.",
+        "bookkeepingNotes": "turpis enim",
+        "narratorsId": [
+            10
+        ],
+        "narratorsPrice": 888,
+        "numberOfVersion": 4,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "nibh fusce",
+            "text": "vestibulum sit amet",
+            "music": "odio porttitor id"
+        },
+        "usagePeriod": "ac",
+        "music": "mi pede malesuada in imperdiet",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "T12-9669",
+        "date": "6/4/2020",
+        "advertiserId": 33,
+        "contactId": 14,
+        "customerId": 45,
+        "campaign": "nisi at",
+        "status": "signed and done",
+        "type": "nascetur ridiculus mus vivamus",
+        "invoiceNumber": "9958809982",
+        "price": 1775,
+        "discount": 0,
+        "generalNotes": "Phasellus sit amet erat. Nulla tempus.",
+        "bookkeepingNotes": "nulla",
+        "narratorsId": [
+            19,
+            16
+        ],
+        "narratorsPrice": 566,
+        "numberOfVersion": 4,
+        "numberOfVariations": 2,
+        "responsibility": {
+            "narrator": "fusce lacus purus",
+            "text": "nam tristique",
+            "music": "sed vestibulum sit"
+        },
+        "usagePeriod": "fusce posuere",
+        "music": "maecenas pulvinar lobortis est",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "N12-0147",
+        "date": "1/16/2021",
+        "advertiserId": 13,
+        "contactId": 41,
+        "customerId": 5,
+        "campaign": "hac",
+        "status": "closed",
+        "type": "est lacinia",
+        "invoiceNumber": "5187079239",
+        "price": 3675,
+        "discount": 2,
+        "generalNotes": "Integer tincidunt ante vel ipsum.",
+        "bookkeepingNotes": "quisque erat",
+        "narratorsId": [
+            23,
+            30,
+            21
+        ],
+        "narratorsPrice": 1192,
+        "numberOfVersion": 2,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "praesent lectus",
+            "text": "hac habitasse",
+            "music": "volutpat sapien"
+        },
+        "usagePeriod": "volutpat in",
+        "music": "platea dictumst morbi vestibulum velit id pretium",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "E86-8911",
+        "date": "5/4/2021",
+        "advertiserId": 47,
+        "contactId": 36,
+        "customerId": 44,
+        "campaign": "donec",
+        "status": "signed and done",
+        "type": "posuere cubilia curae",
+        "invoiceNumber": "9589184944",
+        "price": 4086,
+        "discount": 2,
+        "generalNotes": "Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+        "bookkeepingNotes": "sapien sapien",
+        "narratorsId": [
+            26
+        ],
+        "narratorsPrice": 719,
+        "numberOfVersion": 4,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "interdum eu",
+            "text": "ullamcorper purus sit",
+            "music": "tellus in"
+        },
+        "usagePeriod": "laoreet ut",
+        "music": "nisi eu orci mauris lacinia sapien",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "E71-2687",
+        "date": "12/18/2020",
+        "advertiserId": 24,
+        "contactId": 19,
+        "customerId": 36,
+        "campaign": "mauris sit amet",
+        "status": "closed",
+        "type": "condimentum curabitur",
+        "invoiceNumber": "3916379976",
+        "price": 2480,
+        "discount": 5,
+        "generalNotes": "Morbi porttitor lorem id ligula.",
+        "bookkeepingNotes": "ultrices",
+        "narratorsId": [
+            18,
+            20
+        ],
+        "narratorsPrice": 776,
+        "numberOfVersion": 2,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "gravida sem praesent",
+            "text": "vestibulum quam",
+            "music": "lacinia aenean"
+        },
+        "usagePeriod": "posuere",
+        "music": "dolor quis odio consequat varius integer",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "U37-5904",
+        "date": "9/28/2020",
+        "advertiserId": 47,
+        "contactId": 6,
+        "customerId": 68,
+        "campaign": "gravida",
+        "status": "signed and done",
+        "type": "scelerisque mauris",
+        "invoiceNumber": "6089459879",
+        "price": 1554,
+        "discount": 1,
+        "generalNotes": "Ut tellus.",
+        "bookkeepingNotes": "morbi",
+        "narratorsId": [
+            20
+        ],
+        "narratorsPrice": 1462,
+        "numberOfVersion": 3,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "pede venenatis",
+            "text": "libero non mattis",
+            "music": "odio odio elementum"
+        },
+        "usagePeriod": "id",
+        "music": "ac leo pellentesque ultrices mattis",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "E99-1706",
+        "date": "1/25/2020",
+        "advertiserId": 61,
+        "contactId": 4,
+        "customerId": 19,
+        "campaign": "fringilla rhoncus mauris",
+        "status": "closed",
+        "type": "feugiat et eros vestibulum",
+        "invoiceNumber": "0292706952",
+        "price": 836,
+        "discount": 0,
+        "generalNotes": "Vivamus tortor. Duis mattis egestas metus.",
+        "bookkeepingNotes": "magna",
+        "narratorsId": [
+            11
+        ],
+        "narratorsPrice": 716,
+        "numberOfVersion": 3,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "habitasse platea",
+            "text": "odio porttitor",
+            "music": "nisl venenatis"
+        },
+        "usagePeriod": "venenatis",
+        "music": "quam pharetra magna ac consequat metus",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "Y36-0385",
+        "date": "7/20/2020",
+        "advertiserId": 70,
+        "contactId": 16,
+        "customerId": 82,
+        "campaign": "venenatis",
+        "status": "closed",
+        "type": "nulla nunc purus",
+        "invoiceNumber": "6624302518",
+        "price": 1246,
+        "discount": 2,
+        "generalNotes": "Nulla nisl.",
+        "bookkeepingNotes": "turpis",
+        "narratorsId": [
+            3,
+            23,
+            1
+        ],
+        "narratorsPrice": 921,
+        "numberOfVersion": 4,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "turpis a",
+            "text": "dolor quis odio",
+            "music": "sit amet justo"
+        },
+        "usagePeriod": "sodales",
+        "music": "tellus semper interdum mauris ullamcorper purus sit",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "M46-8769",
+        "date": "4/25/2021",
+        "advertiserId": 52,
+        "contactId": 8,
+        "customerId": 57,
+        "campaign": "sapien",
+        "status": "done",
+        "type": "consequat morbi a",
+        "invoiceNumber": "3573506313",
+        "price": 2928,
+        "discount": 1,
+        "generalNotes": "Nunc purus.",
+        "bookkeepingNotes": "ultrices phasellus",
+        "narratorsId": [
+            17
+        ],
+        "narratorsPrice": 526,
+        "numberOfVersion": 2,
+        "numberOfVariations": 2,
+        "responsibility": {
+            "narrator": "euismod scelerisque quam",
+            "text": "mauris lacinia sapien",
+            "music": "diam cras pellentesque"
+        },
+        "usagePeriod": "amet",
+        "music": "parturient montes nascetur ridiculus mus",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "A20-4915",
+        "date": "4/20/2021",
+        "advertiserId": 72,
+        "contactId": 48,
+        "customerId": 64,
+        "campaign": "ornare imperdiet sapien",
+        "status": "closed",
+        "type": "mauris enim",
+        "invoiceNumber": "4697108469",
+        "price": 3550,
+        "discount": 2,
+        "generalNotes": "Quisque porta volutpat erat.",
+        "bookkeepingNotes": "nulla",
+        "narratorsId": [
+            12,
+            10
+        ],
+        "narratorsPrice": 1372,
+        "numberOfVersion": 1,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "sit amet",
+            "text": "sapien ut",
+            "music": "urna pretium nisl"
+        },
+        "usagePeriod": "donec quis",
+        "music": "amet erat nulla tempus vivamus in felis",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "E80-8654",
+        "date": "10/3/2020",
+        "advertiserId": 86,
+        "contactId": 44,
+        "customerId": 20,
+        "campaign": "orci eget orci",
+        "status": "signed and done",
+        "type": "tempus semper est",
+        "invoiceNumber": "9380446063",
+        "price": 3581,
+        "discount": 0,
+        "generalNotes": "Pellentesque eget nunc.",
+        "bookkeepingNotes": "felis sed",
+        "narratorsId": [
+            18
+        ],
+        "narratorsPrice": 318,
+        "numberOfVersion": 2,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "sapien urna pretium",
+            "text": "orci eget orci",
+            "music": "integer aliquet"
+        },
+        "usagePeriod": "pede",
+        "music": "porttitor id consequat in consequat",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "K41-3069",
+        "date": "6/24/2020",
+        "advertiserId": 27,
+        "contactId": 28,
+        "customerId": 61,
+        "campaign": "platea",
+        "status": "open",
+        "type": "morbi porttitor lorem",
+        "invoiceNumber": "3333149516",
+        "price": 2251,
+        "discount": 5,
+        "generalNotes": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.",
+        "bookkeepingNotes": "metus aenean",
+        "narratorsId": [
+            21,
+            21
+        ],
+        "narratorsPrice": 1423,
+        "numberOfVersion": 2,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "praesent lectus vestibulum",
+            "text": "interdum mauris",
+            "music": "dolor morbi"
+        },
+        "usagePeriod": "libero",
+        "music": "donec ut dolor morbi vel lectus",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "L93-8877",
+        "date": "9/14/2019",
+        "advertiserId": 29,
+        "contactId": 48,
+        "customerId": 8,
+        "campaign": "sapien varius",
+        "status": "done",
+        "type": "ligula pellentesque ultrices phasellus",
+        "invoiceNumber": "0986308951",
+        "price": 3684,
+        "discount": 4,
+        "generalNotes": "Morbi porttitor lorem id ligula.",
+        "bookkeepingNotes": "nibh in",
+        "narratorsId": [
+            15
+        ],
+        "narratorsPrice": 772,
+        "numberOfVersion": 2,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "sit amet diam",
+            "text": "risus auctor sed",
+            "music": "vulputate justo"
+        },
+        "usagePeriod": "duis",
+        "music": "ut dolor morbi vel",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "X46-0844",
+        "date": "11/15/2020",
+        "advertiserId": 75,
+        "contactId": 4,
+        "customerId": 41,
+        "campaign": "mauris enim leo",
+        "status": "signed and done",
+        "type": "pretium quis lectus",
+        "invoiceNumber": "9776608493",
+        "price": 3062,
+        "discount": 0,
+        "generalNotes": "Vivamus tortor. Duis mattis egestas metus.",
+        "bookkeepingNotes": "ultrices erat",
+        "narratorsId": [
+            4,
+            6,
+            29
+        ],
+        "narratorsPrice": 1437,
+        "numberOfVersion": 2,
+        "numberOfVariations": 2,
+        "responsibility": {
+            "narrator": "volutpat sapien arcu",
+            "text": "eget massa",
+            "music": "dis parturient montes"
+        },
+        "usagePeriod": "eget nunc",
+        "music": "elit ac nulla sed",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "M13-5294",
+        "date": "11/28/2020",
+        "advertiserId": 89,
+        "contactId": 24,
+        "customerId": 81,
+        "campaign": "aliquam",
+        "status": "done",
+        "type": "libero rutrum ac lobortis",
+        "invoiceNumber": "4555789490",
+        "price": 4004,
+        "discount": 3,
+        "generalNotes": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+        "bookkeepingNotes": "morbi quis",
+        "narratorsId": [
+            6,
+            24,
+            17
+        ],
+        "narratorsPrice": 1091,
+        "numberOfVersion": 4,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "eros viverra eget",
+            "text": "nulla suspendisse potenti",
+            "music": "erat nulla tempus"
+        },
+        "usagePeriod": "blandit",
+        "music": "pede lobortis ligula sit amet eleifend pede",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "K87-3943",
+        "date": "3/31/2020",
+        "advertiserId": 45,
+        "contactId": 34,
+        "customerId": 11,
+        "campaign": "blandit lacinia erat",
+        "status": "closed",
+        "type": "faucibus orci",
+        "invoiceNumber": "0950434442",
+        "price": 3380,
+        "discount": 3,
+        "generalNotes": "Fusce consequat. Nulla nisl.",
+        "bookkeepingNotes": "viverra eget",
+        "narratorsId": [
+            24,
+            29,
+            9
+        ],
+        "narratorsPrice": 439,
+        "numberOfVersion": 2,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "lacus purus",
+            "text": "montes nascetur",
+            "music": "vestibulum ante ipsum"
+        },
+        "usagePeriod": "volutpat",
+        "music": "quisque erat eros viverra",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "T05-5351",
+        "date": "7/6/2021",
+        "advertiserId": 72,
+        "contactId": 14,
+        "customerId": 91,
+        "campaign": "mi",
+        "status": "signed and done",
+        "type": "fermentum donec ut mauris",
+        "invoiceNumber": "0551458968",
+        "price": 2632,
+        "discount": 5,
+        "generalNotes": "Morbi a ipsum. Integer a nibh.",
+        "bookkeepingNotes": "amet nunc",
+        "narratorsId": [
+            29,
+            16
+        ],
+        "narratorsPrice": 949,
+        "numberOfVersion": 2,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "amet eleifend",
+            "text": "dolor sit",
+            "music": "lacinia aenean"
+        },
+        "usagePeriod": "quis",
+        "music": "sapien varius ut blandit non",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "I79-4687",
+        "date": "8/7/2020",
+        "advertiserId": 100,
+        "contactId": 37,
+        "customerId": 8,
+        "campaign": "nisl",
+        "status": "signed and done",
+        "type": "eu orci mauris lacinia",
+        "invoiceNumber": "0627452396",
+        "price": 3404,
+        "discount": 5,
+        "generalNotes": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+        "bookkeepingNotes": "et magnis",
+        "narratorsId": [
+            14,
+            9,
+            26
+        ],
+        "narratorsPrice": 977,
+        "numberOfVersion": 3,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "primis in faucibus",
+            "text": "odio odio",
+            "music": "risus dapibus augue"
+        },
+        "usagePeriod": "accumsan",
+        "music": "semper rutrum nulla nunc purus phasellus",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "E10-3610",
+        "date": "4/11/2021",
+        "advertiserId": 13,
+        "contactId": 31,
+        "customerId": 45,
+        "campaign": "ac nibh",
+        "status": "closed",
+        "type": "iaculis diam erat",
+        "invoiceNumber": "2211894267",
+        "price": 1029,
+        "discount": 0,
+        "generalNotes": "Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+        "bookkeepingNotes": "in",
+        "narratorsId": [
+            13
+        ],
+        "narratorsPrice": 1411,
+        "numberOfVersion": 2,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "ut erat id",
+            "text": "vestibulum proin",
+            "music": "congue etiam justo"
+        },
+        "usagePeriod": "sem",
+        "music": "ultrices mattis odio donec vitae nisi nam",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "C74-7768",
+        "date": "8/5/2020",
+        "advertiserId": 14,
+        "contactId": 45,
+        "customerId": 6,
+        "campaign": "a odio in",
+        "status": "open",
+        "type": "faucibus orci",
+        "invoiceNumber": "8007792813",
+        "price": 4656,
+        "discount": 2,
+        "generalNotes": "Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+        "bookkeepingNotes": "pede venenatis",
+        "narratorsId": [
+            18,
+            11
+        ],
+        "narratorsPrice": 996,
+        "numberOfVersion": 4,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "in tempor",
+            "text": "aliquam quis turpis",
+            "music": "duis aliquam convallis"
+        },
+        "usagePeriod": "potenti",
+        "music": "ante ipsum primis in faucibus orci",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "B08-9200",
+        "date": "7/7/2020",
+        "advertiserId": 79,
+        "contactId": 46,
+        "customerId": 82,
+        "campaign": "vel accumsan",
+        "status": "closed",
+        "type": "amet consectetuer adipiscing elit",
+        "invoiceNumber": "6010031753",
+        "price": 1930,
+        "discount": 0,
+        "generalNotes": "Phasellus sit amet erat. Nulla tempus.",
+        "bookkeepingNotes": "neque",
+        "narratorsId": [
+            24
+        ],
+        "narratorsPrice": 1100,
+        "numberOfVersion": 2,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "eget massa tempor",
+            "text": "lobortis ligula sit",
+            "music": "vulputate nonummy maecenas"
+        },
+        "usagePeriod": "nulla ut",
+        "music": "quis lectus suspendisse potenti in eleifend",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "N14-2223",
+        "date": "4/3/2020",
+        "advertiserId": 3,
+        "contactId": 16,
+        "customerId": 35,
+        "campaign": "aenean fermentum",
+        "status": "closed",
+        "type": "odio odio",
+        "invoiceNumber": "1588631613",
+        "price": 4463,
+        "discount": 0,
+        "generalNotes": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.",
+        "bookkeepingNotes": "enim",
+        "narratorsId": [
+            6,
+            8
+        ],
+        "narratorsPrice": 999,
+        "numberOfVersion": 3,
+        "numberOfVariations": 2,
+        "responsibility": {
+            "narrator": "vivamus vel",
+            "text": "id turpis integer",
+            "music": "diam nam"
+        },
+        "usagePeriod": "blandit",
+        "music": "in leo maecenas pulvinar lobortis est phasellus",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "B70-2590",
+        "date": "3/1/2021",
+        "advertiserId": 7,
+        "contactId": 14,
+        "customerId": 72,
+        "campaign": "id sapien",
+        "status": "open",
+        "type": "sed interdum",
+        "invoiceNumber": "3976424471",
+        "price": 1386,
+        "discount": 4,
+        "generalNotes": "Nunc purus.",
+        "bookkeepingNotes": "justo",
+        "narratorsId": [
+            16,
+            2
+        ],
+        "narratorsPrice": 1227,
+        "numberOfVersion": 1,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "in lectus",
+            "text": "posuere cubilia",
+            "music": "diam cras"
+        },
+        "usagePeriod": "eleifend",
+        "music": "velit id pretium iaculis diam erat fermentum",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "N87-5836",
+        "date": "5/26/2020",
+        "advertiserId": 18,
+        "contactId": 10,
+        "customerId": 28,
+        "campaign": "blandit non",
+        "status": "closed",
+        "type": "mauris viverra diam vitae",
+        "invoiceNumber": "0783635664",
+        "price": 998,
+        "discount": 4,
+        "generalNotes": "Aliquam non mauris.",
+        "bookkeepingNotes": "elit ac",
+        "narratorsId": [
+            26
+        ],
+        "narratorsPrice": 1137,
+        "numberOfVersion": 4,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "sodales sed tincidunt",
+            "text": "consequat lectus",
+            "music": "sapien a"
+        },
+        "usagePeriod": "justo eu",
+        "music": "sociis natoque penatibus et magnis",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "W15-5394",
+        "date": "7/9/2021",
+        "advertiserId": 15,
+        "contactId": 40,
+        "customerId": 9,
+        "campaign": "dictumst",
+        "status": "closed",
+        "type": "nulla nunc purus phasellus",
+        "invoiceNumber": "0895975092",
+        "price": 2770,
+        "discount": 3,
+        "generalNotes": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+        "bookkeepingNotes": "vel",
+        "narratorsId": [
+            14,
+            13,
+            11
+        ],
+        "narratorsPrice": 1291,
+        "numberOfVersion": 2,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "enim leo rhoncus",
+            "text": "turpis elementum",
+            "music": "amet eleifend pede"
+        },
+        "usagePeriod": "suscipit",
+        "music": "duis mattis egestas metus aenean fermentum",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "D69-2070",
+        "date": "5/17/2020",
+        "advertiserId": 46,
+        "contactId": 18,
+        "customerId": 54,
+        "campaign": "nisi vulputate nonummy",
+        "status": "closed",
+        "type": "augue vestibulum",
+        "invoiceNumber": "8733682925",
+        "price": 4088,
+        "discount": 3,
+        "generalNotes": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "bookkeepingNotes": "aliquet at",
+        "narratorsId": [
+            17,
+            5,
+            16
+        ],
+        "narratorsPrice": 1275,
+        "numberOfVersion": 3,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "primis in",
+            "text": "nisl venenatis lacinia",
+            "music": "sed vel"
+        },
+        "usagePeriod": "felis",
+        "music": "eu nibh quisque id justo sit amet",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "G56-0580",
+        "date": "6/17/2021",
+        "advertiserId": 85,
+        "contactId": 48,
+        "customerId": 22,
+        "campaign": "sit amet cursus",
+        "status": "done",
+        "type": "proin leo",
+        "invoiceNumber": "8837127057",
+        "price": 3901,
+        "discount": 3,
+        "generalNotes": "Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",
+        "bookkeepingNotes": "venenatis turpis",
+        "narratorsId": [
+            28,
+            14,
+            25
+        ],
+        "narratorsPrice": 805,
+        "numberOfVersion": 4,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "ut odio",
+            "text": "in imperdiet et",
+            "music": "proin at turpis"
+        },
+        "usagePeriod": "enim",
+        "music": "nunc rhoncus dui vel",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "F18-1571",
+        "date": "11/3/2019",
+        "advertiserId": 55,
+        "contactId": 4,
+        "customerId": 90,
+        "campaign": "mi sit",
+        "status": "signed and done",
+        "type": "ante ipsum primis",
+        "invoiceNumber": "6932707705",
+        "price": 815,
+        "discount": 3,
+        "generalNotes": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",
+        "bookkeepingNotes": "in",
+        "narratorsId": [
+            9,
+            3
+        ],
+        "narratorsPrice": 1226,
+        "numberOfVersion": 1,
+        "numberOfVariations": 2,
+        "responsibility": {
+            "narrator": "et magnis",
+            "text": "orci pede venenatis",
+            "music": "lobortis est phasellus"
+        },
+        "usagePeriod": "pede",
+        "music": "eu interdum eu tincidunt in",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "Y80-3705",
+        "date": "7/24/2020",
+        "advertiserId": 84,
+        "contactId": 38,
+        "customerId": 79,
+        "campaign": "curae nulla",
+        "status": "closed",
+        "type": "pellentesque ultrices phasellus",
+        "invoiceNumber": "2733444255",
+        "price": 1575,
+        "discount": 0,
+        "generalNotes": "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",
+        "bookkeepingNotes": "vivamus vestibulum",
+        "narratorsId": [
+            20,
+            21,
+            13
+        ],
+        "narratorsPrice": 1443,
+        "numberOfVersion": 2,
+        "numberOfVariations": 2,
+        "responsibility": {
+            "narrator": "sed magna",
+            "text": "ac leo",
+            "music": "aliquet ultrices"
+        },
+        "usagePeriod": "non mauris",
+        "music": "mauris eget massa tempor convallis nulla neque",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "Q25-3155",
+        "date": "7/12/2020",
+        "advertiserId": 14,
+        "contactId": 41,
+        "customerId": 66,
+        "campaign": "mauris non ligula",
+        "status": "open",
+        "type": "felis sed",
+        "invoiceNumber": "9495513820",
+        "price": 2113,
+        "discount": 0,
+        "generalNotes": "Proin eu mi. Nulla ac enim.",
+        "bookkeepingNotes": "posuere metus",
+        "narratorsId": [
+            19,
+            18
+        ],
+        "narratorsPrice": 859,
+        "numberOfVersion": 1,
+        "numberOfVariations": 2,
+        "responsibility": {
+            "narrator": "quam pede lobortis",
+            "text": "integer ac",
+            "music": "justo morbi"
+        },
+        "usagePeriod": "justo",
+        "music": "ut volutpat sapien arcu sed augue",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "P99-0125",
+        "date": "7/30/2020",
+        "advertiserId": 93,
+        "contactId": 24,
+        "customerId": 37,
+        "campaign": "eu",
+        "status": "closed",
+        "type": "quis justo maecenas rhoncus",
+        "invoiceNumber": "2300753642",
+        "price": 4203,
+        "discount": 0,
+        "generalNotes": "Nullam sit amet turpis elementum ligula vehicula consequat.",
+        "bookkeepingNotes": "pulvinar nulla",
+        "narratorsId": [
+            24,
+            19
+        ],
+        "narratorsPrice": 1172,
+        "numberOfVersion": 3,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "vestibulum ante ipsum",
+            "text": "augue luctus",
+            "music": "et magnis dis"
+        },
+        "usagePeriod": "sed",
+        "music": "eget congue eget semper rutrum nulla",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "T66-1657",
+        "date": "6/24/2021",
+        "advertiserId": 1,
+        "contactId": 40,
+        "customerId": 87,
+        "campaign": "gravida nisi at",
+        "status": "open",
+        "type": "hac habitasse platea",
+        "invoiceNumber": "6569555936",
+        "price": 3466,
+        "discount": 5,
+        "generalNotes": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",
+        "bookkeepingNotes": "proin leo",
+        "narratorsId": [
+            4,
+            29,
+            14
+        ],
+        "narratorsPrice": 907,
+        "numberOfVersion": 2,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "quam sapien varius",
+            "text": "sapien in",
+            "music": "erat quisque erat"
+        },
+        "usagePeriod": "rhoncus",
+        "music": "eros vestibulum ac est lacinia nisi",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "R67-0968",
+        "date": "7/29/2019",
+        "advertiserId": 97,
+        "contactId": 13,
+        "customerId": 42,
+        "campaign": "porttitor pede",
+        "status": "closed",
+        "type": "vulputate elementum nullam varius",
+        "invoiceNumber": "0256024626",
+        "price": 3854,
+        "discount": 2,
+        "generalNotes": "Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+        "bookkeepingNotes": "quam sapien",
+        "narratorsId": [
+            8
+        ],
+        "narratorsPrice": 1148,
+        "numberOfVersion": 1,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "metus aenean",
+            "text": "nec nisi",
+            "music": "tortor sollicitudin mi"
+        },
+        "usagePeriod": "sodales scelerisque",
+        "music": "dapibus augue vel accumsan tellus nisi",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "C90-6500",
+        "date": "5/11/2020",
+        "advertiserId": 56,
+        "contactId": 31,
+        "customerId": 85,
+        "campaign": "non lectus",
+        "status": "signed and done",
+        "type": "amet lobortis sapien sapien",
+        "invoiceNumber": "5028956642",
+        "price": 2059,
+        "discount": 4,
+        "generalNotes": "Vivamus vestibulum sagittis sapien.",
+        "bookkeepingNotes": "venenatis turpis",
+        "narratorsId": [
+            21
+        ],
+        "narratorsPrice": 1150,
+        "numberOfVersion": 3,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "blandit lacinia erat",
+            "text": "faucibus cursus",
+            "music": "ante ipsum primis"
+        },
+        "usagePeriod": "sapien",
+        "music": "in quam fringilla rhoncus mauris enim",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "S19-2370",
+        "date": "6/1/2020",
+        "advertiserId": 87,
+        "contactId": 15,
+        "customerId": 69,
+        "campaign": "mauris",
+        "status": "open",
+        "type": "eleifend luctus",
+        "invoiceNumber": "2075794693",
+        "price": 3063,
+        "discount": 5,
+        "generalNotes": "Donec quis orci eget orci vehicula condimentum.",
+        "bookkeepingNotes": "vel enim",
+        "narratorsId": [
+            10,
+            26,
+            4
+        ],
+        "narratorsPrice": 1386,
+        "numberOfVersion": 2,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "non mauris",
+            "text": "et ultrices posuere",
+            "music": "vivamus vestibulum sagittis"
+        },
+        "usagePeriod": "egestas metus",
+        "music": "pellentesque eget nunc donec",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "C80-8094",
+        "date": "1/3/2020",
+        "advertiserId": 71,
+        "contactId": 39,
+        "customerId": 49,
+        "campaign": "nec molestie",
+        "status": "done",
+        "type": "lectus pellentesque at nulla",
+        "invoiceNumber": "3031284704",
+        "price": 826,
+        "discount": 4,
+        "generalNotes": "Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+        "bookkeepingNotes": "tincidunt",
+        "narratorsId": [
+            1
+        ],
+        "narratorsPrice": 487,
+        "numberOfVersion": 3,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "sit amet",
+            "text": "lobortis sapien sapien",
+            "music": "eget massa tempor"
+        },
+        "usagePeriod": "neque",
+        "music": "morbi porttitor lorem id",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "N93-4570",
+        "date": "8/20/2020",
+        "advertiserId": 91,
+        "contactId": 33,
+        "customerId": 90,
+        "campaign": "in consequat",
+        "status": "open",
+        "type": "sagittis sapien",
+        "invoiceNumber": "7140362572",
+        "price": 4041,
+        "discount": 4,
+        "generalNotes": "Suspendisse accumsan tortor quis turpis. Sed ante.",
+        "bookkeepingNotes": "ante",
+        "narratorsId": [
+            7,
+            9
+        ],
+        "narratorsPrice": 596,
+        "numberOfVersion": 2,
+        "numberOfVariations": 2,
+        "responsibility": {
+            "narrator": "cum sociis natoque",
+            "text": "erat vestibulum",
+            "music": "commodo vulputate justo"
+        },
+        "usagePeriod": "nec",
+        "music": "feugiat non pretium quis",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "Q25-1925",
+        "date": "10/7/2019",
+        "advertiserId": 90,
+        "contactId": 14,
+        "customerId": 55,
+        "campaign": "donec odio",
+        "status": "closed",
+        "type": "nisi at",
+        "invoiceNumber": "7460809551",
+        "price": 2366,
+        "discount": 2,
+        "generalNotes": "Suspendisse accumsan tortor quis turpis.",
+        "bookkeepingNotes": "proin leo",
+        "narratorsId": [
+            12,
+            16
+        ],
+        "narratorsPrice": 863,
+        "numberOfVersion": 3,
+        "numberOfVariations": 2,
+        "responsibility": {
+            "narrator": "in faucibus orci",
+            "text": "arcu adipiscing",
+            "music": "pulvinar sed nisl"
+        },
+        "usagePeriod": "vivamus",
+        "music": "pede libero quis orci",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "Y98-6646",
+        "date": "7/27/2021",
+        "advertiserId": 86,
+        "contactId": 37,
+        "customerId": 41,
+        "campaign": "donec dapibus",
+        "status": "signed and done",
+        "type": "pretium iaculis",
+        "invoiceNumber": "7246242686",
+        "price": 4980,
+        "discount": 3,
+        "generalNotes": "Quisque ut erat.",
+        "bookkeepingNotes": "ac",
+        "narratorsId": [
+            17
+        ],
+        "narratorsPrice": 1138,
+        "numberOfVersion": 1,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "in imperdiet et",
+            "text": "cubilia curae mauris",
+            "music": "at ipsum ac"
+        },
+        "usagePeriod": "a",
+        "music": "quisque id justo sit amet sapien dignissim",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "Z06-8952",
+        "date": "6/27/2021",
+        "advertiserId": 81,
+        "contactId": 19,
+        "customerId": 19,
+        "campaign": "in purus",
+        "status": "done",
+        "type": "porttitor id consequat in",
+        "invoiceNumber": "7248052434",
+        "price": 4945,
+        "discount": 5,
+        "generalNotes": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",
+        "bookkeepingNotes": "vestibulum ante",
+        "narratorsId": [
+            19,
+            30
+        ],
+        "narratorsPrice": 1041,
+        "numberOfVersion": 3,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "maecenas ut",
+            "text": "ac leo pellentesque",
+            "music": "nibh in"
+        },
+        "usagePeriod": "lacus",
+        "music": "lacinia nisi venenatis tristique fusce congue diam",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "N60-3343",
+        "date": "10/12/2019",
+        "advertiserId": 60,
+        "contactId": 36,
+        "customerId": 81,
+        "campaign": "lobortis vel dapibus",
+        "status": "closed",
+        "type": "mus etiam vel augue",
+        "invoiceNumber": "2053735260",
+        "price": 1492,
+        "discount": 0,
+        "generalNotes": "Etiam faucibus cursus urna. Ut tellus.",
+        "bookkeepingNotes": "in hac",
+        "narratorsId": [
+            12,
+            16,
+            30
+        ],
+        "narratorsPrice": 822,
+        "numberOfVersion": 3,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "tristique tortor eu",
+            "text": "libero nam",
+            "music": "nunc purus phasellus"
+        },
+        "usagePeriod": "nulla sed",
+        "music": "in magna bibendum imperdiet nullam orci pede",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "H48-5021",
+        "date": "11/27/2019",
+        "advertiserId": 99,
+        "contactId": 2,
+        "customerId": 92,
+        "campaign": "lectus vestibulum",
+        "status": "signed and done",
+        "type": "scelerisque mauris sit",
+        "invoiceNumber": "2248897014",
+        "price": 1708,
+        "discount": 1,
+        "generalNotes": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        "bookkeepingNotes": "ipsum",
+        "narratorsId": [
+            14,
+            18,
+            26
+        ],
+        "narratorsPrice": 1200,
+        "numberOfVersion": 1,
+        "numberOfVariations": 2,
+        "responsibility": {
+            "narrator": "nullam orci",
+            "text": "nibh in",
+            "music": "elementum in"
+        },
+        "usagePeriod": "sed",
+        "music": "quam turpis adipiscing lorem vitae mattis",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "S14-5022",
+        "date": "8/29/2019",
+        "advertiserId": 36,
+        "contactId": 28,
+        "customerId": 2,
+        "campaign": "pharetra magna",
+        "status": "open",
+        "type": "donec ut mauris eget",
+        "invoiceNumber": "3483158650",
+        "price": 1351,
+        "discount": 3,
+        "generalNotes": "Ut at dolor quis odio consequat varius.",
+        "bookkeepingNotes": "semper rutrum",
+        "narratorsId": [
+            11,
+            6
+        ],
+        "narratorsPrice": 430,
+        "numberOfVersion": 3,
+        "numberOfVariations": 2,
+        "responsibility": {
+            "narrator": "dui proin leo",
+            "text": "dapibus nulla suscipit",
+            "music": "nascetur ridiculus mus"
+        },
+        "usagePeriod": "venenatis",
+        "music": "volutpat convallis morbi odio",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "Y36-2542",
+        "date": "11/7/2020",
+        "advertiserId": 42,
+        "contactId": 25,
+        "customerId": 83,
+        "campaign": "platea",
+        "status": "closed",
+        "type": "quam pede",
+        "invoiceNumber": "1951507517",
+        "price": 1720,
+        "discount": 5,
+        "generalNotes": "Quisque ut erat.",
+        "bookkeepingNotes": "in congue",
+        "narratorsId": [
+            29,
+            12
+        ],
+        "narratorsPrice": 1468,
+        "numberOfVersion": 4,
+        "numberOfVariations": 2,
+        "responsibility": {
+            "narrator": "odio curabitur",
+            "text": "accumsan tellus",
+            "music": "magna at"
+        },
+        "usagePeriod": "cursus vestibulum",
+        "music": "et ultrices posuere cubilia",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "F76-5724",
+        "date": "8/6/2021",
+        "advertiserId": 37,
+        "contactId": 20,
+        "customerId": 85,
+        "campaign": "adipiscing lorem",
+        "status": "signed and done",
+        "type": "euismod scelerisque quam",
+        "invoiceNumber": "1799823342",
+        "price": 2516,
+        "discount": 5,
+        "generalNotes": "Quisque porta volutpat erat.",
+        "bookkeepingNotes": "congue",
+        "narratorsId": [
+            17,
+            2,
+            7
+        ],
+        "narratorsPrice": 1063,
+        "numberOfVersion": 3,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "ultrices mattis",
+            "text": "auctor sed",
+            "music": "vitae nisl"
+        },
+        "usagePeriod": "lacinia",
+        "music": "nunc vestibulum ante ipsum",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "J32-8336",
+        "date": "11/13/2019",
+        "advertiserId": 68,
+        "contactId": 43,
+        "customerId": 11,
+        "campaign": "ante",
+        "status": "signed and done",
+        "type": "hac habitasse platea dictumst",
+        "invoiceNumber": "2649762047",
+        "price": 2152,
+        "discount": 3,
+        "generalNotes": "Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",
+        "bookkeepingNotes": "magna",
+        "narratorsId": [
+            20,
+            3,
+            21
+        ],
+        "narratorsPrice": 827,
+        "numberOfVersion": 2,
+        "numberOfVariations": 2,
+        "responsibility": {
+            "narrator": "pretium nisl ut",
+            "text": "ligula sit",
+            "music": "nibh in"
+        },
+        "usagePeriod": "vestibulum eget",
+        "music": "euismod scelerisque quam turpis adipiscing lorem",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "R36-6255",
+        "date": "12/4/2020",
+        "advertiserId": 57,
+        "contactId": 1,
+        "customerId": 27,
+        "campaign": "tortor eu",
+        "status": "open",
+        "type": "blandit nam nulla integer",
+        "invoiceNumber": "7253946413",
+        "price": 3948,
+        "discount": 4,
+        "generalNotes": "Nulla mollis molestie lorem. Quisque ut erat.",
+        "bookkeepingNotes": "pulvinar nulla",
+        "narratorsId": [
+            8,
+            23,
+            7
+        ],
+        "narratorsPrice": 1379,
+        "numberOfVersion": 3,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "cum sociis natoque",
+            "text": "ipsum primis",
+            "music": "ipsum primis in"
+        },
+        "usagePeriod": "leo",
+        "music": "risus praesent lectus vestibulum quam sapien",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "M64-5714",
+        "date": "4/6/2021",
+        "advertiserId": 62,
+        "contactId": 16,
+        "customerId": 47,
+        "campaign": "id pretium",
+        "status": "done",
+        "type": "rhoncus aliquet",
+        "invoiceNumber": "4657527568",
+        "price": 1147,
+        "discount": 3,
+        "generalNotes": "Sed sagittis.",
+        "bookkeepingNotes": "hac",
+        "narratorsId": [
+            25,
+            16,
+            23
+        ],
+        "narratorsPrice": 558,
+        "numberOfVersion": 3,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "erat fermentum justo",
+            "text": "sit amet",
+            "music": "ante nulla justo"
+        },
+        "usagePeriod": "lacus curabitur",
+        "music": "ut at dolor quis odio consequat",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "T35-7954",
+        "date": "10/15/2019",
+        "advertiserId": 75,
+        "contactId": 33,
+        "customerId": 84,
+        "campaign": "aliquam",
+        "status": "signed and done",
+        "type": "aliquet maecenas",
+        "invoiceNumber": "7853651619",
+        "price": 4390,
+        "discount": 1,
+        "generalNotes": "In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "bookkeepingNotes": "elit proin",
+        "narratorsId": [
+            15,
+            14
+        ],
+        "narratorsPrice": 301,
+        "numberOfVersion": 4,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "vitae consectetuer eget",
+            "text": "donec diam",
+            "music": "ut dolor morbi"
+        },
+        "usagePeriod": "quisque arcu",
+        "music": "aliquet ultrices erat tortor sollicitudin",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "T36-1098",
+        "date": "9/28/2019",
+        "advertiserId": 77,
+        "contactId": 38,
+        "customerId": 63,
+        "campaign": "sapien in",
+        "status": "closed",
+        "type": "aliquet ultrices erat",
+        "invoiceNumber": "6832857357",
+        "price": 4452,
+        "discount": 1,
+        "generalNotes": "Maecenas rhoncus aliquam lacus.",
+        "bookkeepingNotes": "quisque ut",
+        "narratorsId": [
+            18
+        ],
+        "narratorsPrice": 1334,
+        "numberOfVersion": 2,
+        "numberOfVariations": 2,
+        "responsibility": {
+            "narrator": "justo maecenas",
+            "text": "vulputate vitae nisl",
+            "music": "eu tincidunt"
+        },
+        "usagePeriod": "ut",
+        "music": "porta volutpat quam pede",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "N66-3679",
+        "date": "4/24/2021",
+        "advertiserId": 81,
+        "contactId": 37,
+        "customerId": 95,
+        "campaign": "ut erat",
+        "status": "open",
+        "type": "mi pede malesuada in",
+        "invoiceNumber": "3517142301",
+        "price": 3462,
+        "discount": 0,
+        "generalNotes": "Proin at turpis a pede posuere nonummy.",
+        "bookkeepingNotes": "vestibulum proin",
+        "narratorsId": [
+            27,
+            25,
+            27
+        ],
+        "narratorsPrice": 1227,
+        "numberOfVersion": 3,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "etiam vel augue",
+            "text": "libero ut",
+            "music": "platea dictumst"
+        },
+        "usagePeriod": "sem",
+        "music": "imperdiet et commodo vulputate justo in",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "Y62-4889",
+        "date": "3/9/2021",
+        "advertiserId": 68,
+        "contactId": 37,
+        "customerId": 16,
+        "campaign": "nisl",
+        "status": "signed and done",
+        "type": "et tempus semper",
+        "invoiceNumber": "4723341390",
+        "price": 2038,
+        "discount": 0,
+        "generalNotes": "Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+        "bookkeepingNotes": "eros viverra",
+        "narratorsId": [
+            19,
+            25
+        ],
+        "narratorsPrice": 1285,
+        "numberOfVersion": 4,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "phasellus sit",
+            "text": "pede lobortis",
+            "music": "amet erat"
+        },
+        "usagePeriod": "risus",
+        "music": "nulla pede ullamcorper augue a",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "L76-1024",
+        "date": "11/19/2019",
+        "advertiserId": 29,
+        "contactId": 37,
+        "customerId": 70,
+        "campaign": "libero nam dui",
+        "status": "open",
+        "type": "in faucibus orci luctus",
+        "invoiceNumber": "0510757871",
+        "price": 1191,
+        "discount": 3,
+        "generalNotes": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.",
+        "bookkeepingNotes": "non pretium",
+        "narratorsId": [
+            2,
+            25
+        ],
+        "narratorsPrice": 1384,
+        "numberOfVersion": 3,
+        "numberOfVariations": 2,
+        "responsibility": {
+            "narrator": "convallis nulla neque",
+            "text": "odio curabitur",
+            "music": "vehicula condimentum"
+        },
+        "usagePeriod": "convallis",
+        "music": "ac diam cras pellentesque volutpat",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "J36-5908",
+        "date": "1/7/2021",
+        "advertiserId": 77,
+        "contactId": 5,
+        "customerId": 28,
+        "campaign": "vulputate",
+        "status": "open",
+        "type": "lectus in est",
+        "invoiceNumber": "4968248970",
+        "price": 4268,
+        "discount": 0,
+        "generalNotes": "Nulla tellus. In sagittis dui vel nisl.",
+        "bookkeepingNotes": "convallis nunc",
+        "narratorsId": [
+            14,
+            21,
+            14
+        ],
+        "narratorsPrice": 858,
+        "numberOfVersion": 1,
+        "numberOfVariations": 2,
+        "responsibility": {
+            "narrator": "morbi non",
+            "text": "blandit ultrices",
+            "music": "consequat varius"
+        },
+        "usagePeriod": "faucibus orci",
+        "music": "pellentesque ultrices phasellus id sapien in",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "X64-5939",
+        "date": "6/22/2020",
+        "advertiserId": 77,
+        "contactId": 9,
+        "customerId": 13,
+        "campaign": "ut",
+        "status": "open",
+        "type": "aliquet pulvinar",
+        "invoiceNumber": "5405611832",
+        "price": 2398,
+        "discount": 3,
+        "generalNotes": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.",
+        "bookkeepingNotes": "lacus curabitur",
+        "narratorsId": [
+            20,
+            27,
+            23
+        ],
+        "narratorsPrice": 811,
+        "numberOfVersion": 1,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "sit amet",
+            "text": "enim in tempor",
+            "music": "eu orci"
+        },
+        "usagePeriod": "nulla",
+        "music": "metus arcu adipiscing molestie hendrerit",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "F62-1722",
+        "date": "5/19/2021",
+        "advertiserId": 46,
+        "contactId": 14,
+        "customerId": 89,
+        "campaign": "lobortis convallis",
+        "status": "done",
+        "type": "ligula in lacus",
+        "invoiceNumber": "6049333998",
+        "price": 2796,
+        "discount": 3,
+        "generalNotes": "Etiam justo. Etiam pretium iaculis justo.",
+        "bookkeepingNotes": "tempus vivamus",
+        "narratorsId": [
+            6,
+            30
+        ],
+        "narratorsPrice": 1133,
+        "numberOfVersion": 3,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "tellus nulla ut",
+            "text": "bibendum imperdiet nullam",
+            "music": "erat id mauris"
+        },
+        "usagePeriod": "vehicula condimentum",
+        "music": "augue quam sollicitudin vitae consectetuer",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "Z67-3360",
+        "date": "11/11/2020",
+        "advertiserId": 17,
+        "contactId": 37,
+        "customerId": 8,
+        "campaign": "sed augue aliquam",
+        "status": "closed",
+        "type": "donec odio justo sollicitudin",
+        "invoiceNumber": "5333229147",
+        "price": 4755,
+        "discount": 5,
+        "generalNotes": "In hac habitasse platea dictumst.",
+        "bookkeepingNotes": "bibendum",
+        "narratorsId": [
+            9,
+            3,
+            15
+        ],
+        "narratorsPrice": 638,
+        "numberOfVersion": 2,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "eget nunc donec",
+            "text": "morbi ut",
+            "music": "nibh in quis"
+        },
+        "usagePeriod": "montes nascetur",
+        "music": "in lacus curabitur at ipsum",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "Z04-3691",
+        "date": "3/13/2021",
+        "advertiserId": 86,
+        "contactId": 47,
+        "customerId": 87,
+        "campaign": "ipsum",
+        "status": "closed",
+        "type": "felis eu",
+        "invoiceNumber": "3157948474",
+        "price": 4085,
+        "discount": 4,
+        "generalNotes": "In hac habitasse platea dictumst. Etiam faucibus cursus urna.",
+        "bookkeepingNotes": "platea dictumst",
+        "narratorsId": [
+            21,
+            10
+        ],
+        "narratorsPrice": 652,
+        "numberOfVersion": 3,
+        "numberOfVariations": 2,
+        "responsibility": {
+            "narrator": "hac habitasse",
+            "text": "sed lacus",
+            "music": "praesent lectus vestibulum"
+        },
+        "usagePeriod": "lobortis convallis",
+        "music": "arcu libero rutrum ac lobortis vel dapibus",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "U15-5071",
+        "date": "10/1/2019",
+        "advertiserId": 55,
+        "contactId": 24,
+        "customerId": 34,
+        "campaign": "lobortis convallis",
+        "status": "signed and done",
+        "type": "bibendum felis",
+        "invoiceNumber": "7154250992",
+        "price": 2178,
+        "discount": 4,
+        "generalNotes": "Cras pellentesque volutpat dui.",
+        "bookkeepingNotes": "natoque penatibus",
+        "narratorsId": [
+            26,
+            14
+        ],
+        "narratorsPrice": 1483,
+        "numberOfVersion": 2,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "nunc viverra dapibus",
+            "text": "nam tristique tortor",
+            "music": "neque duis bibendum"
+        },
+        "usagePeriod": "enim",
+        "music": "sapien placerat ante nulla justo aliquam",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "Y93-5033",
+        "date": "11/21/2019",
+        "advertiserId": 23,
+        "contactId": 26,
+        "customerId": 87,
+        "campaign": "donec",
+        "status": "signed and done",
+        "type": "sapien urna pretium",
+        "invoiceNumber": "4307501748",
+        "price": 3869,
+        "discount": 0,
+        "generalNotes": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
+        "bookkeepingNotes": "dolor",
+        "narratorsId": [
+            7,
+            16
+        ],
+        "narratorsPrice": 591,
+        "numberOfVersion": 4,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "vitae consectetuer eget",
+            "text": "leo pellentesque",
+            "music": "in imperdiet et"
+        },
+        "usagePeriod": "ligula",
+        "music": "turpis sed ante vivamus tortor duis mattis",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "P85-1213",
+        "date": "11/22/2020",
+        "advertiserId": 13,
+        "contactId": 12,
+        "customerId": 38,
+        "campaign": "suspendisse accumsan tortor",
+        "status": "done",
+        "type": "tristique in",
+        "invoiceNumber": "3199687865",
+        "price": 4965,
+        "discount": 1,
+        "generalNotes": "Pellentesque ultrices mattis odio.",
+        "bookkeepingNotes": "nullam molestie",
+        "narratorsId": [
+            23,
+            5
+        ],
+        "narratorsPrice": 1484,
+        "numberOfVersion": 3,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "euismod scelerisque",
+            "text": "nec nisi",
+            "music": "pretium iaculis"
+        },
+        "usagePeriod": "venenatis lacinia",
+        "music": "praesent blandit nam nulla integer pede justo",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "H31-0645",
+        "date": "9/10/2020",
+        "advertiserId": 62,
+        "contactId": 42,
+        "customerId": 59,
+        "campaign": "orci",
+        "status": "open",
+        "type": "lorem vitae mattis nibh",
+        "invoiceNumber": "0460337424",
+        "price": 1473,
+        "discount": 1,
+        "generalNotes": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.",
+        "bookkeepingNotes": "mauris",
+        "narratorsId": [
+            26,
+            22
+        ],
+        "narratorsPrice": 1168,
+        "numberOfVersion": 3,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "lacinia nisi",
+            "text": "cras mi",
+            "music": "lectus pellentesque eget"
+        },
+        "usagePeriod": "metus",
+        "music": "sed vel enim sit amet nunc",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "N54-6779",
+        "date": "8/30/2021",
+        "advertiserId": 21,
+        "contactId": 19,
+        "customerId": 9,
+        "campaign": "vivamus metus arcu",
+        "status": "done",
+        "type": "neque libero convallis",
+        "invoiceNumber": "9412239343",
+        "price": 4110,
+        "discount": 1,
+        "generalNotes": "In sagittis dui vel nisl. Duis ac nibh.",
+        "bookkeepingNotes": "nibh",
+        "narratorsId": [
+            15,
+            10,
+            30
+        ],
+        "narratorsPrice": 859,
+        "numberOfVersion": 4,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "tellus semper interdum",
+            "text": "ante vel",
+            "music": "duis bibendum felis"
+        },
+        "usagePeriod": "nam",
+        "music": "enim leo rhoncus sed vestibulum sit amet",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "Q55-7823",
+        "date": "12/27/2019",
+        "advertiserId": 77,
+        "contactId": 19,
+        "customerId": 1,
+        "campaign": "in hac habitasse",
+        "status": "done",
+        "type": "id nisl venenatis",
+        "invoiceNumber": "5123463836",
+        "price": 1985,
+        "discount": 4,
+        "generalNotes": "Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",
+        "bookkeepingNotes": "aliquam",
+        "narratorsId": [
+            20,
+            2
+        ],
+        "narratorsPrice": 1461,
+        "numberOfVersion": 2,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "rutrum rutrum",
+            "text": "ut at",
+            "music": "nec molestie sed"
+        },
+        "usagePeriod": "sit",
+        "music": "vestibulum aliquet ultrices erat tortor",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "G88-6641",
+        "date": "2/4/2020",
+        "advertiserId": 41,
+        "contactId": 15,
+        "customerId": 25,
+        "campaign": "ultrices enim lorem",
+        "status": "open",
+        "type": "sapien dignissim vestibulum vestibulum",
+        "invoiceNumber": "1812595980",
+        "price": 1595,
+        "discount": 5,
+        "generalNotes": "Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+        "bookkeepingNotes": "semper interdum",
+        "narratorsId": [
+            17,
+            19
+        ],
+        "narratorsPrice": 469,
+        "numberOfVersion": 3,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "hac habitasse",
+            "text": "congue diam",
+            "music": "praesent blandit"
+        },
+        "usagePeriod": "sapien cum",
+        "music": "luctus et ultrices posuere",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "V00-4082",
+        "date": "2/26/2021",
+        "advertiserId": 33,
+        "contactId": 47,
+        "customerId": 39,
+        "campaign": "ridiculus mus vivamus",
+        "status": "signed and done",
+        "type": "amet turpis elementum ligula",
+        "invoiceNumber": "0751259268",
+        "price": 2796,
+        "discount": 3,
+        "generalNotes": "Quisque id justo sit amet sapien dignissim vestibulum.",
+        "bookkeepingNotes": "viverra dapibus",
+        "narratorsId": [
+            16
+        ],
+        "narratorsPrice": 1247,
+        "numberOfVersion": 4,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "habitasse platea dictumst",
+            "text": "tristique tortor eu",
+            "music": "eleifend donec"
+        },
+        "usagePeriod": "quisque arcu",
+        "music": "id massa id nisl venenatis lacinia",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "B56-5471",
+        "date": "7/5/2019",
+        "advertiserId": 74,
+        "contactId": 45,
+        "customerId": 29,
+        "campaign": "viverra eget",
+        "status": "closed",
+        "type": "sagittis sapien cum sociis",
+        "invoiceNumber": "9608783569",
+        "price": 3182,
+        "discount": 0,
+        "generalNotes": "Aenean sit amet justo.",
+        "bookkeepingNotes": "faucibus accumsan",
+        "narratorsId": [
+            26,
+            23,
+            30
+        ],
+        "narratorsPrice": 1018,
+        "numberOfVersion": 1,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "odio odio",
+            "text": "erat eros",
+            "music": "elementum in hac"
+        },
+        "usagePeriod": "molestie",
+        "music": "mi nulla ac enim in",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "K27-2408",
+        "date": "9/2/2019",
+        "advertiserId": 91,
+        "contactId": 46,
+        "customerId": 56,
+        "campaign": "id turpis integer",
+        "status": "done",
+        "type": "consectetuer adipiscing elit",
+        "invoiceNumber": "0138297614",
+        "price": 1732,
+        "discount": 0,
+        "generalNotes": "Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",
+        "bookkeepingNotes": "habitasse platea",
+        "narratorsId": [
+            17,
+            18,
+            24
+        ],
+        "narratorsPrice": 660,
+        "numberOfVersion": 2,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "lacinia sapien quis",
+            "text": "sodales scelerisque mauris",
+            "music": "quam nec dui"
+        },
+        "usagePeriod": "mauris morbi",
+        "music": "nulla tempus vivamus in felis eu sapien",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "V00-6214",
+        "date": "2/13/2020",
+        "advertiserId": 4,
+        "contactId": 17,
+        "customerId": 52,
+        "campaign": "nascetur ridiculus",
+        "status": "done",
+        "type": "suspendisse potenti nullam",
+        "invoiceNumber": "1049777123",
+        "price": 4533,
+        "discount": 5,
+        "generalNotes": "Curabitur at ipsum ac tellus semper interdum.",
+        "bookkeepingNotes": "a suscipit",
+        "narratorsId": [
+            6,
+            19,
+            16
+        ],
+        "narratorsPrice": 375,
+        "numberOfVersion": 3,
+        "numberOfVariations": 2,
+        "responsibility": {
+            "narrator": "nulla ut erat",
+            "text": "nunc nisl",
+            "music": "porttitor pede"
+        },
+        "usagePeriod": "erat",
+        "music": "bibendum imperdiet nullam orci pede venenatis",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "W50-2517",
+        "date": "12/6/2019",
+        "advertiserId": 28,
+        "contactId": 35,
+        "customerId": 81,
+        "campaign": "libero",
+        "status": "done",
+        "type": "tincidunt lacus at",
+        "invoiceNumber": "8330080242",
+        "price": 3870,
+        "discount": 2,
+        "generalNotes": "Curabitur at ipsum ac tellus semper interdum.",
+        "bookkeepingNotes": "in",
+        "narratorsId": [
+            11,
+            24,
+            20
+        ],
+        "narratorsPrice": 1399,
+        "numberOfVersion": 3,
+        "numberOfVariations": 2,
+        "responsibility": {
+            "narrator": "risus praesent lectus",
+            "text": "tristique in tempus",
+            "music": "urna pretium nisl"
+        },
+        "usagePeriod": "proin interdum",
+        "music": "cras mi pede malesuada in",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "C59-8290",
+        "date": "2/15/2020",
+        "advertiserId": 11,
+        "contactId": 14,
+        "customerId": 16,
+        "campaign": "est risus auctor",
+        "status": "closed",
+        "type": "facilisi cras non",
+        "invoiceNumber": "9583083615",
+        "price": 4166,
+        "discount": 5,
+        "generalNotes": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "bookkeepingNotes": "vulputate nonummy",
+        "narratorsId": [
+            5
+        ],
+        "narratorsPrice": 892,
+        "numberOfVersion": 3,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "est donec odio",
+            "text": "arcu sed augue",
+            "music": "nunc rhoncus dui"
+        },
+        "usagePeriod": "suspendisse ornare",
+        "music": "amet sem fusce consequat",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "B86-3489",
+        "date": "1/4/2020",
+        "advertiserId": 54,
+        "contactId": 12,
+        "customerId": 74,
+        "campaign": "pellentesque volutpat dui",
+        "status": "open",
+        "type": "rutrum at lorem integer",
+        "invoiceNumber": "8357799388",
+        "price": 1029,
+        "discount": 0,
+        "generalNotes": "Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",
+        "bookkeepingNotes": "dapibus",
+        "narratorsId": [
+            20,
+            27
+        ],
+        "narratorsPrice": 962,
+        "numberOfVersion": 2,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "donec odio justo",
+            "text": "cubilia curae donec",
+            "music": "molestie sed"
+        },
+        "usagePeriod": "nam",
+        "music": "gravida sem praesent id massa id nisl",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "G89-3531",
+        "date": "2/23/2020",
+        "advertiserId": 25,
+        "contactId": 28,
+        "customerId": 78,
+        "campaign": "lobortis vel",
+        "status": "open",
+        "type": "proin at turpis a",
+        "invoiceNumber": "7882054704",
+        "price": 4277,
+        "discount": 4,
+        "generalNotes": "Vivamus tortor. Duis mattis egestas metus.",
+        "bookkeepingNotes": "sed",
+        "narratorsId": [
+            7,
+            7,
+            20
+        ],
+        "narratorsPrice": 931,
+        "numberOfVersion": 1,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "etiam faucibus cursus",
+            "text": "tortor duis",
+            "music": "in felis eu"
+        },
+        "usagePeriod": "amet",
+        "music": "in sagittis dui vel nisl duis ac",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "L61-0921",
+        "date": "12/18/2019",
+        "advertiserId": 55,
+        "contactId": 21,
+        "customerId": 95,
+        "campaign": "libero",
+        "status": "signed and done",
+        "type": "justo etiam",
+        "invoiceNumber": "7314698090",
+        "price": 3747,
+        "discount": 2,
+        "generalNotes": "Vivamus tortor. Duis mattis egestas metus.",
+        "bookkeepingNotes": "elementum",
+        "narratorsId": [
+            5,
+            1,
+            26
+        ],
+        "narratorsPrice": 338,
+        "numberOfVersion": 1,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "pellentesque ultrices",
+            "text": "volutpat convallis morbi",
+            "music": "habitasse platea dictumst"
+        },
+        "usagePeriod": "consectetuer adipiscing",
+        "music": "eget orci vehicula condimentum curabitur in libero",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "P26-2440",
+        "date": "8/29/2020",
+        "advertiserId": 78,
+        "contactId": 41,
+        "customerId": 45,
+        "campaign": "a suscipit",
+        "status": "open",
+        "type": "mollis molestie lorem quisque",
+        "invoiceNumber": "5063279643",
+        "price": 3867,
+        "discount": 3,
+        "generalNotes": "Aliquam quis turpis eget elit sodales scelerisque.",
+        "bookkeepingNotes": "molestie nibh",
+        "narratorsId": [
+            2,
+            23
+        ],
+        "narratorsPrice": 828,
+        "numberOfVersion": 2,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "volutpat dui",
+            "text": "volutpat in congue",
+            "music": "venenatis tristique"
+        },
+        "usagePeriod": "nulla ultrices",
+        "music": "semper est quam pharetra",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "M92-4702",
+        "date": "5/2/2020",
+        "advertiserId": 75,
+        "contactId": 16,
+        "customerId": 6,
+        "campaign": "aliquet",
+        "status": "closed",
+        "type": "phasellus in felis",
+        "invoiceNumber": "0248607235",
+        "price": 1264,
+        "discount": 1,
+        "generalNotes": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.",
+        "bookkeepingNotes": "nulla nisl",
+        "narratorsId": [
+            1
+        ],
+        "narratorsPrice": 1475,
+        "numberOfVersion": 1,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "ligula suspendisse ornare",
+            "text": "praesent id",
+            "music": "lobortis vel"
+        },
+        "usagePeriod": "mattis",
+        "music": "massa tempor convallis nulla",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "Q94-7493",
+        "date": "2/4/2021",
+        "advertiserId": 36,
+        "contactId": 27,
+        "customerId": 86,
+        "campaign": "velit",
+        "status": "done",
+        "type": "cubilia curae",
+        "invoiceNumber": "9254171670",
+        "price": 2139,
+        "discount": 5,
+        "generalNotes": "Pellentesque ultrices mattis odio. Donec vitae nisi.",
+        "bookkeepingNotes": "libero rutrum",
+        "narratorsId": [
+            13
+        ],
+        "narratorsPrice": 977,
+        "numberOfVersion": 1,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "venenatis non",
+            "text": "neque aenean auctor",
+            "music": "dapibus at"
+        },
+        "usagePeriod": "turpis",
+        "music": "augue vel accumsan tellus nisi eu",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "X65-2610",
+        "date": "2/28/2020",
+        "advertiserId": 56,
+        "contactId": 36,
+        "customerId": 76,
+        "campaign": "et ultrices",
+        "status": "open",
+        "type": "sit amet",
+        "invoiceNumber": "5665603007",
+        "price": 880,
+        "discount": 2,
+        "generalNotes": "Integer ac leo.",
+        "bookkeepingNotes": "ut",
+        "narratorsId": [
+            21
+        ],
+        "narratorsPrice": 786,
+        "numberOfVersion": 4,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "rutrum ac lobortis",
+            "text": "nibh in",
+            "music": "justo aliquam"
+        },
+        "usagePeriod": "phasellus",
+        "music": "magnis dis parturient montes nascetur",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "Q31-1429",
+        "date": "5/20/2020",
+        "advertiserId": 19,
+        "contactId": 25,
+        "customerId": 23,
+        "campaign": "in magna bibendum",
+        "status": "done",
+        "type": "proin leo odio",
+        "invoiceNumber": "4726968297",
+        "price": 2851,
+        "discount": 2,
+        "generalNotes": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
+        "bookkeepingNotes": "morbi",
+        "narratorsId": [
+            9
+        ],
+        "narratorsPrice": 705,
+        "numberOfVersion": 1,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "pede morbi porttitor",
+            "text": "vehicula condimentum curabitur",
+            "music": "est donec odio"
+        },
+        "usagePeriod": "donec pharetra",
+        "music": "rutrum nulla nunc purus phasellus in felis",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "E93-7039",
+        "date": "2/14/2021",
+        "advertiserId": 97,
+        "contactId": 49,
+        "customerId": 18,
+        "campaign": "natoque penatibus et",
+        "status": "open",
+        "type": "tincidunt eget",
+        "invoiceNumber": "9315162811",
+        "price": 2219,
+        "discount": 1,
+        "generalNotes": "Phasellus in felis.",
+        "bookkeepingNotes": "non",
+        "narratorsId": [
+            26,
+            10
+        ],
+        "narratorsPrice": 517,
+        "numberOfVersion": 2,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "nec euismod scelerisque",
+            "text": "eleifend pede libero",
+            "music": "integer non"
+        },
+        "usagePeriod": "cursus id",
+        "music": "vulputate elementum nullam varius nulla",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "J83-6574",
+        "date": "1/28/2020",
+        "advertiserId": 36,
+        "contactId": 10,
+        "customerId": 25,
+        "campaign": "nulla nunc purus",
+        "status": "done",
+        "type": "id mauris",
+        "invoiceNumber": "6368366540",
+        "price": 4934,
+        "discount": 0,
+        "generalNotes": "Suspendisse potenti.",
+        "bookkeepingNotes": "cubilia curae",
+        "narratorsId": [
+            12,
+            6
+        ],
+        "narratorsPrice": 947,
+        "numberOfVersion": 4,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "sapien iaculis",
+            "text": "eget eleifend luctus",
+            "music": "vestibulum velit"
+        },
+        "usagePeriod": "nibh",
+        "music": "augue quam sollicitudin vitae consectetuer eget",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "E57-2144",
+        "date": "1/23/2020",
+        "advertiserId": 12,
+        "contactId": 13,
+        "customerId": 54,
+        "campaign": "vel est donec",
+        "status": "signed and done",
+        "type": "et tempus",
+        "invoiceNumber": "8134801730",
+        "price": 1859,
+        "discount": 0,
+        "generalNotes": "Integer a nibh.",
+        "bookkeepingNotes": "maecenas",
+        "narratorsId": [
+            30
+        ],
+        "narratorsPrice": 417,
+        "numberOfVersion": 4,
+        "numberOfVariations": 2,
+        "responsibility": {
+            "narrator": "massa quis augue",
+            "text": "aliquam erat",
+            "music": "ante vestibulum ante"
+        },
+        "usagePeriod": "integer ac",
+        "music": "tincidunt eget tempus vel pede morbi porttitor",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "M36-9281",
+        "date": "8/6/2019",
+        "advertiserId": 26,
+        "contactId": 31,
+        "customerId": 93,
+        "campaign": "pellentesque volutpat dui",
+        "status": "signed and done",
+        "type": "mauris lacinia sapien quis",
+        "invoiceNumber": "4821767864",
+        "price": 3188,
+        "discount": 5,
+        "generalNotes": "Morbi quis tortor id nulla ultrices aliquet.",
+        "bookkeepingNotes": "ultrices libero",
+        "narratorsId": [
+            13,
+            27
+        ],
+        "narratorsPrice": 1019,
+        "numberOfVersion": 2,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "at diam nam",
+            "text": "ridiculus mus vivamus",
+            "music": "luctus et ultrices"
+        },
+        "usagePeriod": "purus",
+        "music": "ut nunc vestibulum ante ipsum primis",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "R44-2834",
+        "date": "8/13/2021",
+        "advertiserId": 14,
+        "contactId": 2,
+        "customerId": 51,
+        "campaign": "adipiscing molestie hendrerit",
+        "status": "done",
+        "type": "congue elementum",
+        "invoiceNumber": "7939413856",
+        "price": 3269,
+        "discount": 0,
+        "generalNotes": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.",
+        "bookkeepingNotes": "et eros",
+        "narratorsId": [
+            5
+        ],
+        "narratorsPrice": 1201,
+        "numberOfVersion": 3,
+        "numberOfVariations": 2,
+        "responsibility": {
+            "narrator": "ipsum primis in",
+            "text": "augue vel",
+            "music": "massa donec dapibus"
+        },
+        "usagePeriod": "amet",
+        "music": "id ligula suspendisse ornare consequat",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "T51-9875",
+        "date": "11/10/2020",
+        "advertiserId": 11,
+        "contactId": 36,
+        "customerId": 50,
+        "campaign": "rutrum",
+        "status": "signed and done",
+        "type": "nec euismod scelerisque",
+        "invoiceNumber": "9317986420",
+        "price": 3421,
+        "discount": 0,
+        "generalNotes": "Praesent blandit. Nam nulla.",
+        "bookkeepingNotes": "enim lorem",
+        "narratorsId": [
+            25
+        ],
+        "narratorsPrice": 1243,
+        "numberOfVersion": 2,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "montes nascetur",
+            "text": "et ultrices",
+            "music": "in porttitor pede"
+        },
+        "usagePeriod": "viverra",
+        "music": "ipsum primis in faucibus",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "C71-0183",
+        "date": "5/17/2020",
+        "advertiserId": 24,
+        "contactId": 28,
+        "customerId": 20,
+        "campaign": "vestibulum",
+        "status": "signed and done",
+        "type": "augue quam sollicitudin vitae",
+        "invoiceNumber": "7815960731",
+        "price": 2217,
+        "discount": 0,
+        "generalNotes": "Nunc nisl.",
+        "bookkeepingNotes": "rhoncus aliquet",
+        "narratorsId": [
+            29,
+            5,
+            5
+        ],
+        "narratorsPrice": 1462,
+        "numberOfVersion": 1,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "velit id pretium",
+            "text": "odio donec",
+            "music": "diam neque vestibulum"
+        },
+        "usagePeriod": "nisl venenatis",
+        "music": "elit sodales scelerisque mauris sit amet eros",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "H06-0649",
+        "date": "1/4/2021",
+        "advertiserId": 77,
+        "contactId": 20,
+        "customerId": 42,
+        "campaign": "amet eleifend",
+        "status": "open",
+        "type": "vulputate ut ultrices vel",
+        "invoiceNumber": "9361380427",
+        "price": 2779,
+        "discount": 4,
+        "generalNotes": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
+        "bookkeepingNotes": "vestibulum ac",
+        "narratorsId": [
+            2,
+            17
+        ],
+        "narratorsPrice": 1462,
+        "numberOfVersion": 1,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "vivamus vestibulum",
+            "text": "id nulla ultrices",
+            "music": "lorem ipsum dolor"
+        },
+        "usagePeriod": "vestibulum",
+        "music": "feugiat non pretium quis lectus",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "S02-6666",
+        "date": "9/14/2020",
+        "advertiserId": 100,
+        "contactId": 10,
+        "customerId": 78,
+        "campaign": "sed sagittis",
+        "status": "signed and done",
+        "type": "dui vel",
+        "invoiceNumber": "9670949300",
+        "price": 1985,
+        "discount": 5,
+        "generalNotes": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "bookkeepingNotes": "aliquet",
+        "narratorsId": [
+            18,
+            9
+        ],
+        "narratorsPrice": 1176,
+        "numberOfVersion": 3,
+        "numberOfVariations": 2,
+        "responsibility": {
+            "narrator": "neque vestibulum",
+            "text": "ipsum integer",
+            "music": "quis justo"
+        },
+        "usagePeriod": "varius",
+        "music": "blandit ultrices enim lorem",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "Q31-8292",
+        "date": "7/10/2021",
+        "advertiserId": 97,
+        "contactId": 21,
+        "customerId": 96,
+        "campaign": "id",
+        "status": "signed and done",
+        "type": "pellentesque ultrices phasellus id",
+        "invoiceNumber": "2529254214",
+        "price": 1572,
+        "discount": 5,
+        "generalNotes": "Duis ac nibh.",
+        "bookkeepingNotes": "diam",
+        "narratorsId": [
+            18,
+            27
+        ],
+        "narratorsPrice": 673,
+        "numberOfVersion": 1,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "fringilla rhoncus mauris",
+            "text": "est quam pharetra",
+            "music": "blandit nam nulla"
+        },
+        "usagePeriod": "suscipit ligula",
+        "music": "lacus curabitur at ipsum",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "U19-3445",
+        "date": "7/13/2020",
+        "advertiserId": 97,
+        "contactId": 12,
+        "customerId": 41,
+        "campaign": "tortor",
+        "status": "signed and done",
+        "type": "turpis enim blandit",
+        "invoiceNumber": "4706620201",
+        "price": 1643,
+        "discount": 1,
+        "generalNotes": "Donec dapibus. Duis at velit eu est congue elementum.",
+        "bookkeepingNotes": "porta",
+        "narratorsId": [
+            9
+        ],
+        "narratorsPrice": 1138,
+        "numberOfVersion": 4,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "quam suspendisse",
+            "text": "consequat in",
+            "music": "lacinia nisi"
+        },
+        "usagePeriod": "cubilia",
+        "music": "ipsum ac tellus semper interdum",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "L71-1412",
+        "date": "6/19/2020",
+        "advertiserId": 31,
+        "contactId": 29,
+        "customerId": 11,
+        "campaign": "in",
+        "status": "signed and done",
+        "type": "amet nulla quisque arcu",
+        "invoiceNumber": "4983612335",
+        "price": 2523,
+        "discount": 2,
+        "generalNotes": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.",
+        "bookkeepingNotes": "sed sagittis",
+        "narratorsId": [
+            22
+        ],
+        "narratorsPrice": 1299,
+        "numberOfVersion": 2,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "dolor quis odio",
+            "text": "dapibus at diam",
+            "music": "non ligula pellentesque"
+        },
+        "usagePeriod": "diam",
+        "music": "blandit nam nulla integer pede justo lacinia",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "Q87-7771",
+        "date": "10/8/2019",
+        "advertiserId": 4,
+        "contactId": 36,
+        "customerId": 37,
+        "campaign": "et ultrices",
+        "status": "open",
+        "type": "donec vitae",
+        "invoiceNumber": "2881204643",
+        "price": 4204,
+        "discount": 4,
+        "generalNotes": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
+        "bookkeepingNotes": "libero",
+        "narratorsId": [
+            7
+        ],
+        "narratorsPrice": 1041,
+        "numberOfVersion": 4,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "nec nisi",
+            "text": "non interdum in",
+            "music": "non pretium quis"
+        },
+        "usagePeriod": "dictumst",
+        "music": "ac tellus semper interdum mauris ullamcorper",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "S98-0478",
+        "date": "5/23/2021",
+        "advertiserId": 40,
+        "contactId": 45,
+        "customerId": 62,
+        "campaign": "in magna",
+        "status": "open",
+        "type": "morbi porttitor",
+        "invoiceNumber": "4309871151",
+        "price": 2130,
+        "discount": 1,
+        "generalNotes": "Nam nulla.",
+        "bookkeepingNotes": "pharetra magna",
+        "narratorsId": [
+            30,
+            10
+        ],
+        "narratorsPrice": 450,
+        "numberOfVersion": 1,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "consequat morbi a",
+            "text": "tortor duis",
+            "music": "fusce consequat"
+        },
+        "usagePeriod": "curae donec",
+        "music": "potenti in eleifend quam a odio",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "G06-7077",
+        "date": "3/23/2021",
+        "advertiserId": 83,
+        "contactId": 34,
+        "customerId": 96,
+        "campaign": "in purus",
+        "status": "closed",
+        "type": "massa quis augue luctus",
+        "invoiceNumber": "8654789476",
+        "price": 2723,
+        "discount": 5,
+        "generalNotes": "Etiam vel augue.",
+        "bookkeepingNotes": "turpis",
+        "narratorsId": [
+            17
+        ],
+        "narratorsPrice": 1446,
+        "numberOfVersion": 4,
+        "numberOfVariations": 3,
+        "responsibility": {
+            "narrator": "sem duis aliquam",
+            "text": "eget eleifend",
+            "music": "porta volutpat"
+        },
+        "usagePeriod": "diam cras",
+        "music": "amet nunc viverra dapibus nulla suscipit",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "C40-3063",
+        "date": "6/18/2021",
+        "advertiserId": 47,
+        "contactId": 27,
+        "customerId": 74,
+        "campaign": "tortor",
+        "status": "done",
+        "type": "placerat ante",
+        "invoiceNumber": "5952929516",
+        "price": 2561,
+        "discount": 3,
+        "generalNotes": "Proin risus. Praesent lectus.",
+        "bookkeepingNotes": "proin",
+        "narratorsId": [
+            8,
+            10
+        ],
+        "narratorsPrice": 1489,
+        "numberOfVersion": 4,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "quam nec",
+            "text": "donec dapibus duis",
+            "music": "sem mauris"
+        },
+        "usagePeriod": "tristique",
+        "music": "justo in blandit ultrices enim",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "R73-6299",
+        "date": "4/18/2021",
+        "advertiserId": 82,
+        "contactId": 25,
+        "customerId": 85,
+        "campaign": "mus etiam",
+        "status": "open",
+        "type": "sociis natoque penatibus",
+        "invoiceNumber": "2402770910",
+        "price": 1086,
+        "discount": 2,
+        "generalNotes": "Nam nulla.",
+        "bookkeepingNotes": "libero convallis",
+        "narratorsId": [
+            25,
+            20
+        ],
+        "narratorsPrice": 324,
+        "numberOfVersion": 1,
+        "numberOfVariations": 2,
+        "responsibility": {
+            "narrator": "lorem quisque ut",
+            "text": "id turpis integer",
+            "music": "morbi quis"
+        },
+        "usagePeriod": "condimentum",
+        "music": "nisl nunc rhoncus dui vel sem",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "F12-8668",
+        "date": "5/30/2020",
+        "advertiserId": 88,
+        "contactId": 2,
+        "customerId": 88,
+        "campaign": "purus aliquet",
+        "status": "signed and done",
+        "type": "elementum nullam varius nulla",
+        "invoiceNumber": "5215383812",
+        "price": 3858,
+        "discount": 4,
+        "generalNotes": "Maecenas pulvinar lobortis est.",
+        "bookkeepingNotes": "dapibus at",
+        "narratorsId": [
+            21
+        ],
+        "narratorsPrice": 1415,
+        "numberOfVersion": 3,
+        "numberOfVariations": 2,
+        "responsibility": {
+            "narrator": "venenatis non sodales",
+            "text": "eleifend luctus",
+            "music": "commodo vulputate justo"
+        },
+        "usagePeriod": "hac habitasse",
+        "music": "viverra dapibus nulla suscipit ligula in",
+        "studioServicesIncluded": false
+    },
+    {
+        "id": "R21-3663",
+        "date": "7/13/2020",
+        "advertiserId": 39,
+        "contactId": 29,
+        "customerId": 60,
+        "campaign": "et commodo vulputate",
+        "status": "done",
+        "type": "sed justo pellentesque",
+        "invoiceNumber": "8882218368",
+        "price": 2554,
+        "discount": 0,
+        "generalNotes": "Donec ut dolor.",
+        "bookkeepingNotes": "imperdiet",
+        "narratorsId": [
+            15
+        ],
+        "narratorsPrice": 1314,
+        "numberOfVersion": 1,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "nulla neque libero",
+            "text": "id ornare imperdiet",
+            "music": "eu felis fusce"
+        },
+        "usagePeriod": "quam",
+        "music": "ante vestibulum ante ipsum primis in",
+        "studioServicesIncluded": true
+    },
+    {
+        "id": "C51-1917",
+        "date": "7/18/2019",
+        "advertiserId": 77,
+        "contactId": 1,
+        "customerId": 25,
+        "campaign": "dis",
+        "status": "done",
+        "type": "quam fringilla",
+        "invoiceNumber": "2769480316",
+        "price": 872,
+        "discount": 2,
+        "generalNotes": "Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",
+        "bookkeepingNotes": "posuere cubilia",
+        "narratorsId": [
+            20
+        ],
+        "narratorsPrice": 745,
+        "numberOfVersion": 4,
+        "numberOfVariations": 1,
+        "responsibility": {
+            "narrator": "ipsum dolor",
+            "text": "non sodales sed",
+            "music": "ligula pellentesque"
+        },
+        "usagePeriod": "phasellus sit",
+        "music": "pulvinar sed nisl nunc rhoncus dui",
+        "studioServicesIncluded": false
+    }
+]

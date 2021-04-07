@@ -1,0 +1,13 @@
+.title {
+    background-color: rgb(255,255,255);
+    width: fit-content;
+    z-index: 5 ;
+    padding: 0 38px ;
+    color: #585858;
+}
+div.title > h1 {
+    font-size: 1.8rem;
+}
+.divider {
+    top: 33px;
+}

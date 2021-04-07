@@ -1,0 +1,31 @@
+<mat-card class="month-nav">
+    <div class="d-flex flex-row">
+        <div class="left-btn">
+            <button mat-icon-button color="primary" (click)="forward.emit()">
+                <fa-icon class="icon" [icon]="icons.faChevronLeft"></fa-icon>
+            </button>
+        </div>
+        <div class="total-sales">
+            <h1 class="amount">
+                {{ _totalMonthlySales$ | async | currency : 'ILS' : 'symbol' : '1.0'}}
+            </h1>
+        </div>
+        <div class="right-btn">
+            <button mat-icon-button color="primary" (click)="back.emit()">
+                <fa-icon class="icon" [icon]="icons.faChevronRight"></fa-icon>
+            </button>
+        </div>
+    </div>
+    <div class="current-month" *ngIf="_filterObject.dates.fromMonth && _filterObject.dates.toMonth">
+        <h2 class="date"
+            *ngIf="_filterObject.dates.fromYear === _filterObject.dates.toYear && _filterObject.dates.fromMonth === _filterObject.dates.toMonth">
+            {{ _filterObject.dates.fromMonth }}/{{ _filterObject.dates.fromYear }}
+        </h2>
+        <h2 class="date"
+            *ngIf="_filterObject.dates.fromYear !== _filterObject.dates.toYear || _filterObject.dates.fromMonth !== _filterObject.dates.toMonth">
+            {{ _filterObject.dates.fromMonth }}/{{ _filterObject.dates.fromYear }} -
+            {{_filterObject.dates.toMonth}}/{{ _filterObject.dates.toYear }}
+        </h2>
+    </div>
+    <mat-divider class="divider"></mat-divider>
+</mat-card>

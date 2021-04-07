@@ -1,0 +1,21 @@
+<div class="order-details-container">
+    <h3>
+        {{ amountOfOrders$ | async}} <span class="data-title"> :סה"כ הזמנות </span>
+    </h3>
+    <h3>
+        {{ totalAmount$ | async | currency : 'ILS' : 'symbol' : '1.0' }}
+        <span class="data-title"> :סכום כל ההזמנות </span>
+    </h3>
+    <h3>
+        {{ totalClosedOrdersPrice$ | async | currency : 'ILS' : 'symbol' : '1.0' }}
+        <span class="data-title">
+            :סה"כ הזמנות סגורות
+        </span>
+    </h3>
+    <h3>
+        {{ totalOpenOrdersPrice$ | async | currency : 'ILS' : 'symbol' : '1.0' }}
+        <span class="data-title">
+            :סה"כ הזמנות פתוחות
+        </span>
+    </h3>
+</div>

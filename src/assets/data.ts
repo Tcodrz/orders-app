@@ -1,50 +1,83 @@
-export const initialJokesArr = [
-    {
-        "category": "Programming",
-        "type": "single",
-        "joke": "Have a great weekend!\nI hope your code behaves the same on Monday as it did on Friday.",
-        "flags": {
-          "nsfw": false,
-          "religious": false,
-          "political": false,
-          "racist": false,
-          "sexist": false,
-          "explicit": false
-        },
-        "id": 44,
-        "safe": true,
-        "lang": "en"
-      },
-      {
-        "category": "Programming",
-        "type": "single",
-        "joke": "The six stages of debugging:\n1. That can't happen.\n2. That doesn't happen on my machine.\n3. That shouldn't happen.\n4. Why does that happen?\n5. Oh, I see.\n6. How did that ever work?",
-        "flags": {
-          "nsfw": false,
-          "religious": false,
-          "political": false,
-          "racist": false,
-          "sexist": false,
-          "explicit": false
-        },
-        "id": 123,
-        "safe": true,
-        "lang": "en"
-      },
-      {
-        "category": "Programming",
-        "type": "single",
-        "joke": "A SQL statement walks into a bar and sees two tables.\nIt approaches, and asks \"may I join you?\"",
-        "flags": {
-          "nsfw": false,
-          "religious": false,
-          "political": false,
-          "racist": false,
-          "sexist": false,
-          "explicit": false
-        },
-        "id": 5,
-        "safe": true,
-        "lang": "en"
-      },
+import { IOrder } from './../app/shared/models/order.model';
+
+export const orders: IOrder[] = [
+  {
+    id: 1,
+    advertiserId: 35,
+    bookkeepingNotes: '',
+    campaign: `רדיו מרץ 21`,
+    contactId: 137,
+    customerId: 63,
+    date: '13/03/2021',
+    discount: 0,
+    generalNotes: '',
+    invoiceNumber: 192837,
+    music: 'Red Hot Chilly Peppers - Californication',
+    narrators: 24,
+    numberOfVariations: 1,
+    numberOfVersions: 0,
+    price: 2400,
+    responsibility: {
+      text: 'לקוח',
+      narrator: 'באחריות אולפן הקלטות',
+      music: 'באחריות אולפן הקלטות'
+    },
+    status: 'בוצע',
+    studioServicesIcluded: true,
+    type: 'תשדירי רדיו',
+    usagePeriod: 'עונה'
+  },
+  {
+    id: 2,
+    advertiserId: 435,
+    bookkeepingNotes: '',
+    campaign: `אביב 2021 רדיו`,
+    contactId: 72,
+    customerId: 432,
+    date: '19/03/2021',
+    discount: 0,
+    generalNotes: '',
+    invoiceNumber: 192812,
+    music: 'Pantera - Walk',
+    narrators: 6,
+    numberOfVariations: 3,
+    numberOfVersions: 0,
+    price: 5500,
+    responsibility: {
+      text: 'לקוח',
+      narrator: 'באחריות אולפן הקלטות',
+      music: 'לקוח'
+    },
+    status: 'בוצע וחתום',
+    studioServicesIcluded: true,
+    type: 'תשדירי רדיו',
+    usagePeriod: 'שתי עונות'
+  },
+  {
+    id: 3,
+    advertiserId: 14,
+    bookkeepingNotes: 'google',
+    campaign: `digital campaign`,
+    contactId: 285,
+    customerId: 341,
+    date: '24/03/2021',
+    discount: 0,
+    generalNotes: 'הקלטת קריינות + עריכה ומיקס',
+    invoiceNumber: 217654,
+    music: 'WOM Brandon James - letting a dog go',
+    narrators: 26,
+    numberOfVariations: 1,
+    numberOfVersions: 0,
+    price: 3200,
+    responsibility: {
+      text: 'לקוח',
+      narrator: 'באחריות אולפן הקלטות',
+      music: 'באחריות אולפן הקלטות'
+    },
+    status: 'פתוחה',
+    studioServicesIcluded: true,
+    type: 'סרטון דיגיטל',
+    usagePeriod: 'ללא'
+  }
 ];
+

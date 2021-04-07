@@ -1,0 +1,12 @@
+.icon {
+    padding: 1.5px 6px;
+    margin-right: -5px;
+    border-radius: 100%;
+    font-size: 12px;
+    cursor: pointer;
+    z-index: 100;
+}
+.icon:hover {
+    background-color: rgb(102, 102, 102) !important;
+    color: rgb(241, 241, 241) !important;
+}

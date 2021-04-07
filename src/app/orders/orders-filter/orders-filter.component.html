@@ -1,0 +1,56 @@
+<mat-card>
+    <div class="d-flex justify-content-center">
+        <div class="title">
+            <h1> חיפוש </h1>
+        </div>
+    </div>
+    <mat-divider class="divider"></mat-divider>
+    <form (ngSubmit)="dispatch()">
+        <div class="d-flex flex-row-reverse justify-content-around">
+
+            <mat-form-field class="text-right" [formGroup]="form">
+                <mat-label>מספר הזמנה</mat-label>
+                <input type="text" matInput formControlName="orderNumber">
+            </mat-form-field>
+            <mat-form-field class="text-right" [formGroup]="form">
+                <mat-label>פרסומאי \ מזמין העבודה</mat-label>
+                <input type="text" matInput formControlName="advertiserName">
+            </mat-form-field>
+            <mat-form-field class="text-right" [formGroup]="form">
+                <mat-label>לקוח</mat-label>
+                <input type="text" matInput formControlName="customerName">
+            </mat-form-field>
+            <mat-form-field class="text-right" [formGroup]="amount">
+                <mat-label>מסכום</mat-label>
+                <input type="number" matInput formControlName="from">
+            </mat-form-field>
+            <mat-form-field class="text-right" [formGroup]="amount">
+                <mat-label>עד סכום</mat-label>
+                <input type="number" matInput formControlName="to">
+            </mat-form-field>
+            <mat-form-field class="text-right" [formGroup]="form">
+                <mat-label>קריין</mat-label>
+                <input type="text" matInput formControlName="narratorName">
+            </mat-form-field>
+            <mat-form-field appearance="legacy" class="text-right">
+                <mat-label>תאריכים</mat-label>
+                <mat-date-range-input [formGroup]="this.range" [rangePicker]="picker">
+                    <input matStartDate formControlName="start" placeholder="Start date">
+                    <input matEndDate formControlName="end" placeholder="End date">
+                </mat-date-range-input>
+                <mat-datepicker-toggle matPrefix [for]="picker"></mat-datepicker-toggle>
+                <mat-date-range-picker #picker></mat-date-range-picker>
+            </mat-form-field>
+            <div class="mt-1">
+
+                <button mat-fab color="primary">
+                    <fa-icon [icon]="icons.faSearch"></fa-icon>
+                </button>
+            </div>
+        </div>
+    </form>
+    <div class="d-flex flex-row-reverse justify-content-around">
+
+    </div>
+
+</mat-card>

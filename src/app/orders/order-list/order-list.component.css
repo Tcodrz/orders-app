@@ -1,0 +1,34 @@
+table {
+    width: 100%;
+    text-align: right;
+}
+
+.mat-column-actions {
+    overflow: initial;
+}
+
+th.mat-header-cell {
+    text-align: right;
+}
+td.mat-cell {
+    padding: 2px;
+}
+.sortable {
+    color: rgb(87, 87, 216);
+}
+.sortable:hover {
+    cursor: pointer;
+}
+.sortable-date {
+    margin-right: 36px;
+}
+
+.order-expanded {
+    margin-top: 15px;
+    padding: 10px 0;
+    text-align: right;
+}
+
+.expanded-item-title {
+    font-weight: 600;
+}

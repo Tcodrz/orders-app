@@ -28,10 +28,7 @@
       ]
     },
     "max-classes-per-file": false,
-    "max-line-length": [
-      true,
-      140
-    ],
+    "max-line-length": false,
     "member-ordering": [
       true,
       {
@@ -42,14 +39,6 @@
           "instance-method"
         ]
       }
-    ],
-    "no-console": [
-      true,
-      "debug",
-      "info",
-      "time",
-      "timeEnd",
-      "trace"
     ],
     "no-empty": false,
     "no-inferrable-types": [
@@ -108,7 +97,8 @@
       "options": [
         "ban-keywords",
         "check-format",
-        "allow-pascal-case"
+        "allow-pascal-case",
+        "allow-leading-underscore"
       ]
     },
     "whitespace": {
