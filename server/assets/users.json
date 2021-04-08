@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "admin",
+        "password": 1234,
+        "email": "admin@orders-app.com",
+        "admin": true
+    },
+    {
+        "id": 2,
+        "name": "idan",
+        "password": 1234,
+        "email": "idan@orders-app.com",
+        "admin": false
+    },
+    {
+        "id": 3,
+        "name": "alon",
+        "password": 1234,
+        "email": "alon@orders-app.com",
+        "admin": false
+    },
+    {
+        "id": 4,
+        "name": "tom",
+        "password": 1234,
+        "email": "tom@orders-app.com",
+        "admin": false
+    }
+]

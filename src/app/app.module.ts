@@ -1,3 +1,4 @@
+import { SharedModule } from './shared/shared.module';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { MatNativeDateModule } from '@angular/material/core';
@@ -17,6 +18,7 @@ import { OrdersModule } from './orders/orders.module';
     BrowserAnimationsModule,
     AppRoutingModule,
     HttpClientModule,
+    SharedModule,
     OrdersModule,
     MatNativeDateModule
   ],

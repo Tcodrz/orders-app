@@ -1,0 +1,21 @@
+<div class="container mt-5">
+    <div class="d-flex flex-row justify-content-center">
+        <div class="d-flex flex-column w-25">
+            <h1 class="text-center">כניסה</h1>
+            <mat-divider class="mb-3"></mat-divider>
+            <form (ngSubmit)="submit()" [formGroup]="loginForm">
+                <mat-form-field class="text-right d-block">
+                    <mat-label>שם משתמש</mat-label>
+                    <input type="text" matInput formControlName="username">
+                </mat-form-field>
+                <mat-form-field class="text-right d-block">
+                    <mat-label>סיסמא</mat-label>
+                    <input type="password" matInput formControlName="password">
+                </mat-form-field>
+                <div class="d-flex flex-row justify-content-center">
+                    <button mat-raised-button color="primary" class="w-100">היכנס</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

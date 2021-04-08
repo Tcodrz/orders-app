@@ -1,3 +1,4 @@
+import { DateService } from './../../shared/services/date.service';
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { DateRange } from './../../shared/models/date-range.model';
@@ -67,9 +68,9 @@ export class OrdersFilterComponent {
       this.range.value.end = '';
     }
     let startDate = this.range.value.start.toString();
-    startDate = [this.convert(startDate.split(' ')[1]), startDate.split(' ')[2], startDate.split(' ')[3]];
+    startDate = [DateService.convertMonthNameToNumber(startDate.split(' ')[1]), startDate.split(' ')[2], startDate.split(' ')[3]];
     let endDate = this.range.value.end.toString();
-    endDate = [this.convert(endDate.split(' ')[1]), endDate.split(' ')[2], endDate.split(' ')[3]];
+    endDate = [DateService.convertMonthNameToNumber(endDate.split(' ')[1]), endDate.split(' ')[2], endDate.split(' ')[3]];
 
     const dates: DateRange = {
       fromDay: startDate[1] || '',
@@ -91,37 +92,6 @@ export class OrdersFilterComponent {
     };
 
     this.filter.emit(filterObj);
-  }
-
-  private convert(month: string): string {
-    switch (month) {
-      case 'Jan':
-        return '1';
-      case 'Feb':
-        return '2';
-      case 'Mar':
-        return '3';
-      case 'Apr':
-        return '4';
-      case 'May':
-        return '5';
-      case 'Jun':
-        return '6';
-      case 'Jul':
-        return '7';
-      case 'Aug':
-        return '8';
-      case 'Sep':
-        return '9';
-      case 'Oct':
-        return '10';
-      case 'Nov':
-        return '11';
-      case 'Dec':
-        return '12';
-      default:
-        return '';
-    }
   }
 
 }

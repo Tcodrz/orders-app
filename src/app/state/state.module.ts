@@ -1,3 +1,4 @@
+import { UserEffects } from './user/user.effects';
 import { FilterEffects } from './filters/filter.effects';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
@@ -14,8 +15,8 @@ import { OrdersEffects } from './orders/orders.effects';
   imports: [
     CommonModule,
     StoreModule.forRoot(reducers),
-    StoreDevtoolsModule.instrument({ maxAge: 10 }),
-    EffectsModule.forRoot([OrdersEffects, FilterEffects])
+    StoreDevtoolsModule.instrument({ maxAge: 20 }),
+    EffectsModule.forRoot([OrdersEffects, FilterEffects, UserEffects])
   ]
 })
 export class StateModule { }

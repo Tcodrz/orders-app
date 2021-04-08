@@ -1,0 +1,31 @@
+<mat-toolbar color="accent">
+    <div class="d-flex flex-row-reverse w-100 navigation">
+        <div class="navbar-link" [ngClass]="this.path === 'orders' ? 'selected' : ''">
+            <button mat-flat-button color="accent" routerLink="/orders">
+                הזמנות
+            </button>
+        </div>
+        <div class="navbar-link" [ngClass]="this.path === 'customers' ? 'selected' : ''">
+            <button mat-flat-button color="accent" routerLink="/customers" routerLinkActive="router-link-active">
+                לקוחות
+            </button>
+        </div>
+        <div class="navbar-link" [ngClass]="this.path === 'advertisers' ? 'selected' : ''">
+            <button mat-flat-button color="accent" routerLink="/advertisers">
+                פרסומאים
+            </button>
+        </div>
+        <div class="navbar-link" [ngClass]="this.path === 'narrators' ? 'selected' : ''">
+            <button mat-flat-button color="accent" routerLink="/narrators">
+                קריינים
+            </button>
+        </div>
+        <div class="navbar-link" [ngClass]="this.path === 'users' ? 'selected' : ''">
+            <button mat-flat-button color="accent">
+                משתמשים
+            </button>
+        </div>
+
+    </div>
+
+</mat-toolbar>

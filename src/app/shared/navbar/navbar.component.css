@@ -1,0 +1,13 @@
+.navigation {
+    padding-right: 6rem;
+}
+.navbar-link {
+    padding: 13px;
+}
+.selected {
+    border-bottom: 3px solid purple;
+    padding: 12px 13px 12px 13px;
+}
+.mat-flat-button {
+    font-size: 25px;
+}

@@ -2,6 +2,7 @@ import { IContact } from './contact.model';
 import { INarrator } from './narrator.model';
 import { IAdvertiser } from './advetiser.model';
 import { ICustomer } from './customer.model';
+
 export interface IOrder {
     id: string;
     date: string;
