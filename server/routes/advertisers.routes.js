@@ -1,6 +1,17 @@
 const express = require('express');
 const router = express.Router();
 const advertisers = require('../assets/advertisers');
+const contacts = require('../assets/contacts.json');
+
+advertisers.forEach(adv => {
+    advContacts = [];
+    contacts.forEach(c => {
+        if (adv.contacts.includes(c.id)) {
+            advContacts.push(c);
+        }
+    });
+    adv.contacts = advContacts;
+});
 
 router.get('', (req, res) => {
     return res.json({

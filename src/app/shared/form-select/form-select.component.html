@@ -1,0 +1,22 @@
+<div class="form-field" *ngIf="!inputHasName">
+    <mat-form-field class="text-right">
+        <mat-label> {{ label }} </mat-label>
+        <mat-select [(ngModel)]="value" name="value">
+            <mat-option class="text-right" *ngFor="let option of options" [value]="option"
+                (click)="getValue.emit(value)">
+                {{ option }}
+            </mat-option>
+        </mat-select>
+    </mat-form-field>
+</div>
+<div class="form-field" *ngIf="inputHasName">
+    <mat-form-field class="text-right">
+        <mat-label> {{ label }} </mat-label>
+        <mat-select [(ngModel)]="value" name="value">
+            <mat-option class="text-right" *ngFor="let option of options" [value]="option"
+                (click)="getValue.emit(value)">
+                {{ option.name }}
+            </mat-option>
+        </mat-select>
+    </mat-form-field>
+</div>

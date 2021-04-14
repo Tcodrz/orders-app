@@ -1,3 +1,6 @@
+import { NarratorsEffects } from './narrators/narrators.effects';
+import { CustomersEffects } from './customers/customers.effects';
+import { AdvertisersEffects } from './advertisers/advertisers.effects';
 import { UserEffects } from './user/user.effects';
 import { FilterEffects } from './filters/filter.effects';
 import { CommonModule } from '@angular/common';
@@ -16,7 +19,7 @@ import { OrdersEffects } from './orders/orders.effects';
     CommonModule,
     StoreModule.forRoot(reducers),
     StoreDevtoolsModule.instrument({ maxAge: 20 }),
-    EffectsModule.forRoot([OrdersEffects, FilterEffects, UserEffects])
+    EffectsModule.forRoot([OrdersEffects, FilterEffects, UserEffects, AdvertisersEffects, CustomersEffects, NarratorsEffects])
   ]
 })
 export class StateModule { }

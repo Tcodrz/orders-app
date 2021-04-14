@@ -1,4 +1,4 @@
-import { loggedIn } from './user.actions';
+import { loggedIn, logout } from './user.actions';
 import { createReducer, Action, on } from '@ngrx/store';
 import { IUser } from './../../shared/models/user.model';
 
@@ -23,6 +23,9 @@ const _userReducer = createReducer(
             user: action.payload
         };
     }),
+    on(logout, () => {
+        return initialState;
+    })
 );
 
 export function userReducer(state = initialState, action: Action): UserState {

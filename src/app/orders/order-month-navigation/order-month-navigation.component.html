@@ -2,7 +2,7 @@
     <div class="d-flex flex-row">
         <div class="left-btn">
             <button mat-icon-button color="primary" (click)="forward.emit()">
-                <fa-icon class="icon" [icon]="icons.faChevronLeft"></fa-icon>
+                <mat-icon class="icon">navigate_before</mat-icon>
             </button>
         </div>
         <div class="total-sales">
@@ -12,7 +12,7 @@
         </div>
         <div class="right-btn">
             <button mat-icon-button color="primary" (click)="back.emit()">
-                <fa-icon class="icon" [icon]="icons.faChevronRight"></fa-icon>
+                <mat-icon class="icon">navigate_next</mat-icon>
             </button>
         </div>
     </div>

@@ -56,7 +56,8 @@ export class HttpService {
 
   getAllNarrators(): Observable<INarrator[]> {
     return this.http.get<ApiResponse>(`${this.api}/narrators`).pipe(
-      map((resp: ApiResponse) => resp.error ? [] : resp.data)
+      map((resp: ApiResponse) => resp.error ? [] : resp.data),
+      tap((narrators: INarrator[]) => narrators.map(n => n.price = 0))
     );
   }
 }

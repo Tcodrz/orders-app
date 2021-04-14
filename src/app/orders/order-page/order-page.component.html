@@ -1,0 +1,97 @@
+<div>
+    <app-navbar></app-navbar>
+</div>
+
+<div class="order-page">
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title>
+                {{ orderNumber }} :הזמנה מספר
+            </mat-card-title>
+        </mat-card-header>
+        <div class="form-container">
+            <div class="form-field">
+                <mat-form-field class="text-right">
+                    <mat-label>תאריך</mat-label>
+                    <input matInput [matDatepicker]="picker" [(ngModel)]="date">
+                    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                    <mat-datepicker #picker></mat-datepicker>
+                </mat-form-field>
+            </div>
+            <app-form-select [inputHasName]="true" [label]="'פרסומאי \ מזמין העבודה'" [options]="advertisers$ | async"
+                (getValue)="catchAdvertiser($event)">
+            </app-form-select>
+
+            <app-form-select [inputHasName]="true" [label]="'איש קשר'" [options]="advertiser.contacts"
+                (getValue)="catchContact($event)">
+            </app-form-select>
+
+            <app-form-select [inputHasName]="true" [label]="'לקוח'" [options]="customers$ | async"
+                (getValue)="catchCustomer($event)">
+            </app-form-select>
+
+            <app-form-field [inputType]="'text'" [label]="'קמפיין'" (getValue)="catchCampaign($event)">
+            </app-form-field>
+
+            <app-form-select [inputHasName]="false" [label]="'סוג העבודה'" [options]="orderTypes"
+                (getValue)="catchType($event)">
+            </app-form-select>
+        </div>
+        <div class="form-container">
+            <app-order-price-form (price)="catchPrice($event)">
+            </app-order-price-form>
+        </div>
+        <div class="form-container">
+            <app-order-notes-form (notes)="catchNotes($event)">
+            </app-order-notes-form>
+        </div>
+    </mat-card>
+    <mat-card class="mt-3">
+        <mat-card-header>
+            <mat-card-title>
+                קריינים
+            </mat-card-title>
+        </mat-card-header>
+        <app-add-narrator-form [narrators$]="this.narrators$" (addNarrators)="addNarrators($event)">
+        </app-add-narrator-form>
+    </mat-card>
+    <mat-card class="mt-3">
+        <mat-card-header>
+            <mat-card-title>אחריות</mat-card-title>
+        </mat-card-header>
+        <div class="form-container">
+            <app-form-select [inputHasName]="false" [label]="'טקסט'" [options]="responsibilityTypes"
+                (getValue)="catchTextResponsibility($event)">
+            </app-form-select>
+            <app-form-select [inputHasName]="false" [label]="'קריינות'" [options]="responsibilityTypes"
+                (getValue)="catchNarratorResponsibilty($event)">
+            </app-form-select>
+            <app-form-select [inputHasName]="false" [label]="'מוזיקה'" [options]="responsibilityTypes"
+                (getValue)="catchMusicResponsibility($event)">
+            </app-form-select>
+        </div>
+        <div class="form-container">
+            <app-form-field [inputType]="'number'" [label]="'מספר ורסיות'" (getValue)="catchNumberOfVersions($event)">
+            </app-form-field>
+            <app-form-field [inputType]="'number'" [label]="'מספר נגזרות'" (getValue)="catchNumberOfVariations($event)">
+            </app-form-field>
+        </div>
+        <mat-card-header>
+            <mat-card-title>תקופת שימוש</mat-card-title>
+        </mat-card-header>
+        <div class="form-container mt-2">
+            <mat-radio-group [(ngModel)]="usagePeriod">
+                <mat-radio-button class="mr-3" *ngFor="let option of usagePeriodOptions" [labelPosition]="'after'"
+                    [value]="option" color="primary">
+                    {{ option }}
+                </mat-radio-button>
+            </mat-radio-group>
+        </div>
+        <div class="form-container">
+            <app-form-field [inputType]="'text'" [label]="'מוזיקה'" (getValue)="catchMusic($event)">
+            </app-form-field>
+        </div>
+    </mat-card>
+    <!-- <mat-card class="mt-3">
+    </mat-card> -->
+</div>

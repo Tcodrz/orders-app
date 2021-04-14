@@ -1,0 +1,16 @@
+<div class="form-container">
+    <div class="form-field">
+        <mat-form-field class="text-right form-text-area">
+            <mat-label>הערות</mat-label>
+            <textarea name="generalNotes" cols="180" rows="4" [(ngModel)]="generalNotes" matInput
+                (focusout)="dispatch()"></textarea>
+        </mat-form-field>
+    </div>
+    <div class="form-field">
+        <mat-form-field class="text-right form-text-area">
+            <mat-label>הערות הנהלת חשבונות</mat-label>
+            <textarea name="bookkeepingNotes" cols="180" rows="4" [(ngModel)]="bookkeepingNotes" matInput
+                (focusout)="dispatch()"></textarea>
+        </mat-form-field>
+    </div>
+</div>

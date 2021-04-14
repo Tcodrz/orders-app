@@ -1,0 +1,6 @@
+<div class="form-field">
+    <mat-form-field class="text-right">
+        <mat-label>{{label}}</mat-label>
+        <input [type]="inputType" matInput [(ngModel)]="value" name="value" (keypress)="getValue.emit(value)">
+    </mat-form-field>
+</div>

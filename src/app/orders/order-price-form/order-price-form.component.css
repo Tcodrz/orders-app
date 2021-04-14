@@ -1,0 +1,12 @@
+@import '../order-page/order-page.component.css';
+@import '../order-list/order-list.component.css';
+
+table{ 
+    width: 550px;
+}
+
+.prices-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

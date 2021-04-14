@@ -3,3 +3,27 @@
 @import '../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css';
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.clear-icon {
+    position: absolute !important;
+    top: 9% !important;
+    right: 0 !important;
+    font-size: 20px !important;
+}
+
+.clear-icon-btn {
+    width: 25px !important;
+    height: 25px !important;
+}
+
+.add-icon {
+    position: absolute !important;
+    top: 3px !important;
+    right: 7px !important;
+    font-size: 28px !important;
+}
+
+.add-icon-btn {
+    width: 35px !important;
+    height: 35px !important;
+    background-color: rgb(55, 160, 55) !important;
+}

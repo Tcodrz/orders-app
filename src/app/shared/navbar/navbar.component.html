@@ -1,8 +1,16 @@
 <mat-toolbar color="accent">
+    <button mat-flat-button color="accent" (click)="logout()">
+        <mat-icon class="logout-icon">logout</mat-icon>
+    </button>
     <div class="d-flex flex-row-reverse w-100 navigation">
         <div class="navbar-link" [ngClass]="this.path === 'orders' ? 'selected' : ''">
             <button mat-flat-button color="accent" routerLink="/orders">
                 הזמנות
+            </button>
+        </div>
+        <div class="navbar-link" [ngClass]="this.path === 'order-page' ? 'selected' : ''">
+            <button mat-flat-button color="accent" routerLink="/order-page">
+                הזמנה חדשה
             </button>
         </div>
         <div class="navbar-link" [ngClass]="this.path === 'customers' ? 'selected' : ''">
@@ -20,12 +28,6 @@
                 קריינים
             </button>
         </div>
-        <div class="navbar-link" [ngClass]="this.path === 'users' ? 'selected' : ''">
-            <button mat-flat-button color="accent">
-                משתמשים
-            </button>
-        </div>
-
     </div>
 
 </mat-toolbar>

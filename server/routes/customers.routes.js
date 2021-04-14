@@ -1,6 +1,17 @@
 const express = require('express');
-const customers = require('../assets/customers');
 const router = express.Router();
+const customers = require('../assets/customers');
+const contacts = require('../assets/contacts.json');
+
+customers.forEach(customer => {
+    custContacts = [];
+    contacts.forEach(c => {
+        if (customer.contacts.includes(c.id)) {
+            custContacts.push(c);
+        }
+    });
+    customer.contacts = custContacts;
+});
 
 router.get('', (req, res) => {
     return res.status(200).json({

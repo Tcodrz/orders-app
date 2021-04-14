@@ -1,10 +1,10 @@
-import { Subscription } from 'rxjs';
-import { login } from './../../state/user/user.actions';
-import { Store, select } from '@ngrx/store';
-import { FormGroup, FormControl } from '@angular/forms';
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnDestroy } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
+import { select, Store } from '@ngrx/store';
+import { Subscription } from 'rxjs';
 import { AppState } from 'src/app/state';
+import { login } from './../../state/user/user.actions';
 
 @Component({
   selector: 'app-login-page',

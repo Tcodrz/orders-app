@@ -58,8 +58,6 @@ export class OrdersFilterComponent {
 
   @Output() filter: EventEmitter<FilterState> = new EventEmitter();
 
-  constructor(public icons: FontAwesomeService) { }
-
   dispatch(): void {
     if (!this.range.value.start) {
       this.range.value.start = '';

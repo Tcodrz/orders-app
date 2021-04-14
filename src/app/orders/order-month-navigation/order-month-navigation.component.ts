@@ -1,7 +1,5 @@
-import { DateService } from './../../shared/services/date.service';
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { FontAwesomeService } from './../../shared/services/font-awesome.service';
 import { FilterState, initialState } from './../../state/filters/filter.reducer';
 
 @Component({
@@ -26,7 +24,5 @@ export class OrderMonthNavigationComponent {
   }
   @Output() back = new EventEmitter();
   @Output() forward = new EventEmitter();
-
-  constructor(public icons: FontAwesomeService) { }
 
 }

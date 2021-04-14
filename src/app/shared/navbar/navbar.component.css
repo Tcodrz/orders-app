@@ -5,9 +5,14 @@
     padding: 13px;
 }
 .selected {
-    border-bottom: 3px solid purple;
+    border-bottom: 3px solid #673ab7;
     padding: 12px 13px 12px 13px;
 }
 .mat-flat-button {
     font-size: 25px;
+}
+.logout-icon {
+    /* margin-left: 2rem; */
+    font-size: 40px;
+    margin-top: -20px;
 }

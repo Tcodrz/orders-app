@@ -5,14 +5,15 @@
         </th>
         <td mat-cell *matCellDef="let order">
             <div class="button-container">
-                <button mat-icon-button color="warn">
-                    <fa-icon [icon]="icons.faTrash" (click)="removeOrder.emit(order)"></fa-icon>
-                </button>
-                <button mat-icon-button color="accent">
-                    <fa-icon [icon]="icons.faPrint"></fa-icon>
+                <button mat-icon-button color="warn" (click)="removeOrder.emit(order)">
+                    <!-- <fa-icon [icon]="icons.faTrash"></fa-icon> -->
+                    <mat-icon>delete</mat-icon>
                 </button>
                 <button mat-icon-button color="primary">
-                    <fa-icon [icon]="icons.faEdit"></fa-icon>
+                    <mat-icon>print</mat-icon>
+                </button>
+                <button mat-icon-button color="accent">
+                    <mat-icon>edit</mat-icon>
                 </button>
             </div>
         </td>
@@ -59,7 +60,6 @@
                     ,&nbsp;
                 </span>
             </span>
-
         </td>
     </ng-container>
     <ng-container matColumnDef="invoiceNumber">
@@ -110,7 +110,7 @@
     </ng-container>
     <ng-container matColumnDef="id">
         <th mat-header-cell *matHeaderCellDef>מס הזמנה</th>
-        <td mat-cell *matCellDef="let order">
+        <td mat-cell *matCellDef="let order" class="pr-4">
             {{ order.id }}
         </td>
     </ng-container>

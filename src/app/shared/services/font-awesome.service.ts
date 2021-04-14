@@ -13,7 +13,9 @@ import {
   faLongArrowAltUp,
   faLongArrowAltDown,
   faSort,
-  faSearch
+  faSearch,
+  faSignOutAlt,
+  faPlus
 } from '@fortawesome/free-solid-svg-icons';
 
 @Injectable({
@@ -34,4 +36,6 @@ export class FontAwesomeService {
   faLongArrowAltDown = faLongArrowAltDown;
   faSort = faSort;
   faSearch = faSearch;
+  faSignOutAlt = faSignOutAlt;
+  faPlus = faPlus;
 }

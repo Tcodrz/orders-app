@@ -11,6 +11,10 @@ import { OrdersFilterComponent } from './orders-filter/orders-filter.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { OrdersActiveFiltersComponent } from './orders-active-filters/orders-active-filters.component';
 import { SharedModule } from '../shared/shared.module';
+import { OrderPageComponent } from './order-page/order-page.component';
+import { AddNarratorFormComponent } from './add-narrator-form/add-narrator-form.component';
+import { OrderNotesFormComponent } from './order-notes-form/order-notes-form.component';
+import { OrderPriceFormComponent } from './order-price-form/order-price-form.component';
 
 
 
@@ -22,7 +26,11 @@ import { SharedModule } from '../shared/shared.module';
     OrdersDetailsComponent,
     OrderMonthNavigationComponent,
     OrdersFilterComponent,
-    OrdersActiveFiltersComponent
+    OrdersActiveFiltersComponent,
+    OrderPageComponent,
+    AddNarratorFormComponent,
+    OrderNotesFormComponent,
+    OrderPriceFormComponent
   ],
   imports: [
     CommonModule,

@@ -1,0 +1,24 @@
+.order-page {
+    padding: 2rem 8rem;
+    margin-top: 2rem;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: space-between;
+    align-items: baseline;
+}
+
+.form-text-area {
+    width: 300px;
+}
+
+.form-field {
+    padding: .2rem .7rem;
+}
+
+.mat-card-header {
+    flex-direction: row-reverse;
+}
+
