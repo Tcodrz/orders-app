@@ -1,22 +1,43 @@
 <div class="form-field" *ngIf="!inputHasName">
+
     <mat-form-field class="text-right">
         <mat-label> {{ label }} </mat-label>
-        <mat-select [(ngModel)]="value" name="value">
-            <mat-option class="text-right" *ngFor="let option of options" [value]="option"
-                (click)="getValue.emit(value)">
-                {{ option }}
+        <mat-select [(ngModel)]="_value" name="value">
+            <mat-option class="text-right" [value]="option" *ngFor="let option of _options"
+                (click)="sendValue(option);">
+                <span [ngSwitch]="_value">
+                    <span *ngSwitchCase="'open'">
+                        פתוחה
+                    </span>
+                    <span *ngSwitchCase="'done'">
+                        בוצע
+                    </span>
+                    <span *ngSwitchCase="'signed and done'">
+                        בוצע וחתום
+                    </span>
+                    <span *ngSwitchCase="'closed'">
+                        סגורה
+                    </span>
+                    <span *ngSwitchDefault>
+                        {{ option}}
+                    </span>
+                </span>
             </mat-option>
         </mat-select>
     </mat-form-field>
+
 </div>
+
+
 <div class="form-field" *ngIf="inputHasName">
+
     <mat-form-field class="text-right">
         <mat-label> {{ label }} </mat-label>
-        <mat-select [(ngModel)]="value" name="value">
-            <mat-option class="text-right" *ngFor="let option of options" [value]="option"
-                (click)="getValue.emit(value)">
+        <mat-select [(ngModel)]="_value" name="value">
+            <mat-option class="text-right" *ngFor="let option of _options" [value]="option" (click)="sendValue(option)">
                 {{ option.name }}
             </mat-option>
         </mat-select>
     </mat-form-field>
+
 </div>

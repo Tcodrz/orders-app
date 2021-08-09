@@ -37,6 +37,7 @@ export class LoginPageComponent implements OnDestroy {
       select('user')
     ).subscribe(userState => {
       if (userState.user.id) {
+        sessionStorage.setItem('user', JSON.stringify(userState.user));
         this.router.navigate(['orders']);
       }
     });

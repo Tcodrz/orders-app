@@ -10,6 +10,11 @@ import { INarrator } from 'src/app/shared/models/narrator.model';
 })
 export class AddNarratorFormComponent {
   @Input() narrators$: Observable<INarrator[]> = of([]);
+  @Input() set narratorsList(val: INarrator[]) {
+    if (val) {
+      this.narrators = val;
+    }
+  }
   @Output() addNarrators: EventEmitter<{ narrators: INarrator[]; totalPrice: number }> = new EventEmitter();
   displayedColumns = ['actions', 'price', 'narrator'];
   narrator = {

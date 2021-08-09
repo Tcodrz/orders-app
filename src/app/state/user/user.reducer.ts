@@ -1,4 +1,4 @@
-import { loggedIn, logout } from './user.actions';
+import { loggedIn, logout, updateLoggedInUser } from './user.actions';
 import { createReducer, Action, on } from '@ngrx/store';
 import { IUser } from './../../shared/models/user.model';
 
@@ -25,6 +25,18 @@ const _userReducer = createReducer(
     }),
     on(logout, () => {
         return initialState;
+    }),
+    on(updateLoggedInUser, (state, action) => {
+        console.log(action.payload);
+        return {
+            user: {
+                _id: action.payload._id,
+                id: action.payload.id,
+                name: action.payload.name,
+                email: action.payload.email,
+                admin: action.payload.admin
+            }
+        };
     })
 );
 

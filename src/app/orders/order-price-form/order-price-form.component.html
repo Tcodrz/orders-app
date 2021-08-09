@@ -1,13 +1,14 @@
 <div>
     <div class="form-container">
         <div class="form-field">
-            <mat-checkbox [color]="'primary'" [labelPosition]="'before'" [checked]="_detailed" [(ngModel)]="_detailed"
-                (click)="reset()" name="detailed">
-                מחיר כללי \ מפורט
+            <mat-checkbox [color]="'primary'" [labelPosition]="'before'" [checked]="price.detailed"
+                [(ngModel)]="price.detailed" name="detailed">
+                מחיר מפורט
             </mat-checkbox>
         </div>
     </div>
-    <div class="form-container" *ngIf="_detailed">
+
+    <div class="form-container" *ngIf="price.detailed">
         <div class="form-field">
             <mat-form-field class="text-right">
                 <mat-label>עבור</mat-label>
@@ -21,13 +22,10 @@
             </mat-form-field>
         </div>
         <div>
-            <button mat-mini-fab color="primary" class="mr-2 add-icon-btn"
-                (click)="addDetailedPrice({name: itemName, price: itemPrice})">
-                <mat-icon class="add-icon">add</mat-icon>
-            </button>
+            <app-add-button (click)="addDetailedPrice({name: itemName, price: itemPrice})"></app-add-button>
         </div>
     </div>
-    <div class="prices-table text-right" *ngIf="_detailed">
+    <div class="prices-table text-right" *ngIf="price.detailed">
         <div *ngIf="_prices.length > 0">
             <table mat-table [dataSource]="_prices" class="mat-elevation-z8">
                 <ng-container matColumnDef="item">
@@ -40,7 +38,7 @@
                     <td mat-cell *matCellDef="let p"> {{ p.price | currency : 'ILS' }} </td>
                     <td mat-footer-cell *matFooterCellDef>
                         <span class="font-weight-bold">
-                            {{ priceAfterDiscount(getTotalCost(), _discount) | currency : 'ILS' }}
+                            {{ priceAfterDiscount(getTotalCost(), price.discount) | currency : 'ILS' }}
                         </span>
                     </td>
                 </ng-container>
@@ -54,47 +52,50 @@
                     <td mat-footer-cell *matFooterCellDef>
                         מחיר אחרי מע"מ:
                         <span class="font-weight-bold">
-                            {{ priceAfterMaam(priceAfterDiscount(getTotalCost(), _discount)) | currency : 'ILS' :
+                            {{ priceAfterMaam(priceAfterDiscount(getTotalCost(), price.discount)) | currency : 'ILS' :
                             'symbol' :
                             '1.1' }}
                         </span>
                     </td>
                 </ng-container>
-                <!-- <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr> -->
                 <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
                 <tr mat-footer-row *matFooterRowDef="displayedColumns"></tr>
             </table>
         </div>
     </div>
-    <div class="form-container" *ngIf="_detailed && _prices.length > 0">
+    <div class="form-container" *ngIf="price.detailed && _prices.length > 0">
         <div class="form-field">
             <mat-form-field class="text-right pt-3">
                 <mat-label>הנחה באחוזים</mat-label>
-                <input type="number" matInput name="discount" [(ngModel)]="_discount">
+                <input type="number" matInput name="discount" [(ngModel)]="price.discount" (keyup)="dispatch()">
             </mat-form-field>
         </div>
     </div>
-    <div class="form-container" *ngIf="!_detailed">
+    <div class=" form-container" *ngIf="!price.detailed">
         <div class="form-field">
             <mat-form-field class="text-right">
                 <mat-label class="pr-3">מחיר</mat-label>
-                <input type="number" matInput [(ngModel)]="_price" name="price" (focusout)="dispatch()">
+                <input type="number" matInput [(ngModel)]="price.fullPrice" name="price" (keyup)="dispatch()">
             </mat-form-field>
         </div>
 
         <div class="form-field">
             <mat-form-field class="text-right">
                 <mat-label class="p-3">הנחה באחוזים</mat-label>
-                <input type="number" matInput [(ngModel)]="_discount" name="discount" (focusout)="dispatch()">
+                <input type="number" matInput [(ngModel)]="price.discount" name="discount" (keyup)="dispatch()">
             </mat-form-field>
         </div>
 
-        <div class="form-field" *ngIf="priceAfterDiscount(_price, _discount)">
-            מחיר לפני מע"מ: {{ priceAfterDiscount(_price, _discount) | currency : 'ILS' : 'symbol' : '1.0' }}
+        <div class="form-field" *ngIf="priceAfterDiscount(price.fullPrice, price.discount)">
+            מחיר לפני מע"מ: {{ priceAfterDiscount(price.fullPrice, price.discount) | currency : 'ILS' : 'symbol'
+            : '1.0'
+            }}
         </div>
-        <div class="form-field" *ngIf="priceAfterDiscount(_price, _discount)">
+        <div class="form-field" *ngIf="priceAfterDiscount(price.fullPrice, price.discount)">
             מחיר כולל מע"מ:
-            {{ priceAfterMaam(priceAfterDiscount(_price, _discount)) | currency : 'ILS' : 'symbol' : '1.1' }}
+            {{ priceAfterMaam(priceAfterDiscount(price.fullPrice, price.discount)) | currency : 'ILS' : 'symbol'
+            : '1.1'
+            }}
         </div>
     </div>
 </div>

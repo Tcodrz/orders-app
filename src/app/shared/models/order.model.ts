@@ -1,7 +1,9 @@
+import { PriceObject } from './../../orders/order-price-form/order-price-form.component';
 import { IContact } from './contact.model';
 import { INarrator } from './narrator.model';
 import { IAdvertiser } from './advetiser.model';
 import { ICustomer } from './customer.model';
+import { IFile } from '../file-upload/file-upload.component';
 
 export interface IOrder {
     id: string;
@@ -12,9 +14,9 @@ export interface IOrder {
     campaign: string;
     type: string;
     status: string;
-    invoiceNumber: number;
-    price: number;
-    discount: number;
+    files: IFile[];
+    invoiceNumber: string;
+    price: PriceObject;
     generalNotes: string;
     bookkeepingNotes: string;
     narrators: INarrator[];
@@ -26,7 +28,7 @@ export interface IOrder {
         text: string;
         music: string;
     };
-    usagePeriod: string;
+    usagePeriod: number;
     music: string;
     studioServicesIcluded: boolean;
 }

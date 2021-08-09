@@ -18,7 +18,8 @@ export class LoginGuard implements CanActivate {
     return this.store.pipe(
       select('user'),
       map((userState: UserState) => {
-        if (userState.user.id) {
+        const user = sessionStorage.getItem('user');
+        if (userState.user.id || user) {
           this.router.navigate(['orders']);
           return false;
         } else {

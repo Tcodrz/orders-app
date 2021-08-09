@@ -59,7 +59,7 @@ export class OrdersService {
 
   get totalOrdersPrice(): Observable<number> {
     return this.orders$.pipe(
-      map(orders => orders.map(x => x.price)
+      map(orders => orders.map(x => x.price.fullPrice)
         .reduce((x, y) => x + y, 0)
       )
     );
@@ -68,7 +68,7 @@ export class OrdersService {
   get totalClosedOrdersPrice(): Observable<number> {
     return this.orders$.pipe(
       map(orders => orders.filter(o => o.status === 'closed' || o.status === 'done' || o.status === 'signed and done')
-        .map(o => o.price)
+        .map(o => o.price.fullPrice)
         .reduce((x, y) => x + y, 0)
       )
     );
@@ -77,7 +77,7 @@ export class OrdersService {
   get totalOpenOrdersPrice(): Observable<number> {
     return this.orders$.pipe(
       map(orders => orders.filter(o => o.status === 'open')
-        .map(o => o.price)
+        .map(o => o.price.fullPrice)
         .reduce((x, y) => x + y, 0)
       )
     );

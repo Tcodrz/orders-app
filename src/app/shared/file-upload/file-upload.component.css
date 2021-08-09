@@ -1,0 +1,77 @@
+table {
+    width: 350px;
+    text-align: right;
+}
+
+#uploadFile {
+    top: 0px;
+    right: 0px;
+    width: 50%;    
+    z-index: 9;
+    opacity: 0;
+    height: 100%;
+    cursor: pointer;
+    position: absolute;
+}
+
+#input-container {
+    display: inline-block;
+    width: 50% !important;
+}
+
+#description-select {
+    padding: .2rem .7rem;
+    display: inline-block;
+    width: 50% !important;
+}
+
+.title {
+    text-align: right;
+    font-size: 20px;
+}
+
+.file-upload-input {
+    text-align: right;
+    color: rgb(57, 57, 255);
+    margin-right: 3px;
+    text-decoration: underline;
+}
+
+.file-description {
+    display: inline-block;
+}
+
+.upload-container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.mat-form-field {
+    width: 395px !important;
+}
+
+.mat-toolbar-single-row {
+    height: auto !important;
+    background: transparent;
+    flex-direction: row-reverse !important;
+    text-align: end;
+}
+
+.upload-btn {
+    width: 25% !important;
+}
+
+.files-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.mat-toolbar-single-row button {
+    width: 200px;
+}
+
+.mat-form-field {
+    width: 100%;
+}

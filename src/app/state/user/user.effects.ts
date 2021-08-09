@@ -1,11 +1,9 @@
-import { Router } from '@angular/router';
-import { mergeMap, catchError, map, tap } from 'rxjs/operators';
-import { login, loggedIn } from './user.actions';
-import { HttpService } from 'src/app/shared/services/http.service';
-import { Actions, createEffect, ofType } from '@ngrx/effects';
 import { Injectable } from '@angular/core';
-import { EMPTY, of } from 'rxjs';
-import { ActionsSubject } from '@ngrx/store';
+import { Actions, createEffect, ofType } from '@ngrx/effects';
+import { EMPTY } from 'rxjs';
+import { catchError, map, mergeMap } from 'rxjs/operators';
+import { HttpService } from 'src/app/shared/services/http.service';
+import { loggedIn, login } from './user.actions';
 
 @Injectable()
 export class UserEffects {

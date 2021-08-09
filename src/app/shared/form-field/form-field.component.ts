@@ -9,6 +9,11 @@ export class FormFieldComponent {
   @Input() label = '';
   @Input() inputType = '';
   @Output() getValue = new EventEmitter();
+  @Input() set setValue(val: any) {
+    if (val) {
+      this.value = val;
+    }
+  }
   value: any;
 
 }

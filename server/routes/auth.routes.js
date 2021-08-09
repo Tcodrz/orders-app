@@ -1,26 +1,51 @@
 const express = require('express');
+const bcrypt = require('bcrypt');
+const User = require('../models/user.model');
 const router = express.Router()
-const users = require('../assets/users.json');
 
-router.post('', (req, res) => {
-    const user = req.body;
-    console.log(user);
-    const u = users.find(u => u.email == user.username);
-    console.log(u);
 
-    if (!u || u.password !== parseInt(user.password, 10)) {
-        return res.status(404).json({
-            data: null,
-            error: true,
-            amount: 0,
-            message: 'one or more of the users details is incorrect'
+/**
+ * LOGIN FUNCTION
+ */
+router.post('', async (req, res) => {
+    try {
+        const userInput = req.body;
+        const user = await User.findOne({ email: userInput.username }, '+password');
+        if (!user) {
+            return res.status(404).json({
+                data: [],
+                error: true,
+                message: 'User Not Found'
+            });
+        }
+
+        bcrypt.compare(userInput.password, user.password, (err, same) => {
+            if (err) {
+                return res.status(400).json({
+                    data: [],
+                    error: true,
+                    message: 'One of the details is incorrect'
+                });
+            }
+            if (same) {
+                user.password = undefined;
+                return res.status(200).json({
+                    data: user,
+                    error: false
+                });
+            } else {
+                return res.status(400).json({
+                    data: [],
+                    error: true,
+                    message: 'One of the details is incorrect'
+                });
+            }
         });
-    } else {
-        return res.status(200).json({
-            data: u,
-            error: false,
-            amount: 1,
-            message: ''
+    } catch (error) {
+        return res.status(401).json({
+            data: [],
+            error: true,
+            message: error.message
         });
     }
 

@@ -67,16 +67,14 @@ module.exports = [{
     "contacts": [
         24,
         2,
-        6,
         27,
-        27,
+        14,
         6
     ]
 }, {
     "id": 8,
     "name": "Jetwire",
     "contacts": [
-        6,
         20,
         30,
         21
@@ -124,6 +122,7 @@ module.exports = [{
     "contacts": [
         16,
         8,
+        31,
         2,
         11,
         25,

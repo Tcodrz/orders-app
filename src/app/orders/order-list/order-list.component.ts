@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { IOrder } from './../../shared/models/order.model';
@@ -25,6 +26,12 @@ export class OrderListComponent {
     }
   }
 
-  constructor(public icons: FontAwesomeService) { }
+  constructor(
+    private router: Router,
+    public icons: FontAwesomeService
+  ) { }
 
+  goToOrderPage(orderid: string): void {
+    this.router.navigate([`order-page/${orderid}`]);
+  }
 }

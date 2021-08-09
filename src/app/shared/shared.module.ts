@@ -22,10 +22,19 @@ import { FormFieldComponent } from './form-field/form-field.component';
 import { FormSelectComponent } from './form-select/form-select.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FileUploadComponent } from './file-upload/file-upload.component';
+import { AddButtonComponent } from './add-button/add-button.component';
 
 
 @NgModule({
-  declarations: [LoginPageComponent, NavbarComponent, FormFieldComponent, FormSelectComponent],
+  declarations: [
+    LoginPageComponent,
+    NavbarComponent,
+    FormFieldComponent,
+    FormSelectComponent,
+    FileUploadComponent,
+    AddButtonComponent
+  ],
   imports: [
     CommonModule,
     FormsModule,
@@ -49,6 +58,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     MatIconModule
   ],
   exports: [
+    AddButtonComponent,
+    FileUploadComponent,
     LoginPageComponent,
     FormSelectComponent,
     FormFieldComponent,

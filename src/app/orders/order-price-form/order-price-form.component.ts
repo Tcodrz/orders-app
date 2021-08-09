@@ -1,6 +1,7 @@
-import { Component, EventEmitter, Output } from '@angular/core';
+import { Component, EventEmitter, Output, Input } from '@angular/core';
 
 export interface PriceObject {
+  detailed: boolean;
   fullPrice: number;
   discount: number;
   collection: { id: number; name: string; price: number }[];
@@ -12,26 +13,37 @@ export interface PriceObject {
   styleUrls: ['./order-price-form.component.css']
 })
 export class OrderPriceFormComponent {
-  @Output() price: EventEmitter<number | PriceObject | null> = new EventEmitter();
-  _price: number | null = null;
-  _discount: number | null = null;
-  _detailed = false;
-  _prices: { id: number; name: string; price: number }[] = [];
+  @Input() set setPrice(val: PriceObject) { this.price = Object.assign({}, val); }
+  @Output() priceEvt: EventEmitter<PriceObject> = new EventEmitter();
   displayedColumns = ['action', 'price', 'item'];
+  // _price = 0;
+  // _discount = 0;
+  // _detailed = false;
+  _prices: { id: number; name: string; price: number }[] = [];
   itemName = '';
   itemPrice = '';
+  price: PriceObject = {
+    detailed: false,
+    fullPrice: 0,
+    discount: 0,
+    collection: []
+  };
 
   addDetailedPrice(price: { name: string; price: string }): void {
     const p = parseInt(price.price, 10);
     const newPriceObject = {
-      id: this._prices.length + 1,
+      id: this._prices[this._prices.length - 1] ? this._prices[this._prices.length - 1].id + 1 : 1,
       name: price.name,
       price: p
     };
-
-    this._prices = [...this._prices, newPriceObject];
-    this.itemName = '';
-    this.itemPrice = '';
+    if (!isNaN(p) && p > 0) {
+      this._prices = [...this._prices, newPriceObject];
+      this.itemName = '';
+      this.itemPrice = '';
+    }
+    this.price.collection = this._prices;
+    this.price.fullPrice = this.getTotalCost();
+    this.dispatch();
   }
 
   removeDetailedPrice(price: { id: number; name: string; price: number }): void {
@@ -69,21 +81,12 @@ export class OrderPriceFormComponent {
   }
 
   dispatch(): void {
-    if (this._price && this._price > 0) {
-      if (this._discount && this._discount > 0) {
-        this.price.emit({
-          fullPrice: this._price,
-          discount: this._discount,
-          collection: []
-        });
-      }
-      this.price.emit(this._price);
-    }
+    this.priceEvt.emit(this.price);
   }
 
   reset(): void {
-    this._price = null;
-    this._discount = null;
+    this.price.fullPrice = 0;
+    this.price.discount = 0;
     this._prices = [];
     this.itemName = '';
     this.itemPrice = '';
