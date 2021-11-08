@@ -28,6 +28,9 @@ export class OrderPageService {
   narrators$: Observable<INarrator[]> = of([]);
   orders: IOrder[] = [];
 
+  calls: number = 0;
+
+
   constructor(private store: Store<AppState>, private api: HttpService) {
     this.store.dispatch(loadCustomers());
     this.store.dispatch(loadAdvertisers());
@@ -53,11 +56,9 @@ export class OrderPageService {
     ).subscribe(orders => this.orders = orders);
   }
 
-  saveOrder(order: IOrder): void {
-    // this.store.dispatch({ type: 'update order' });
 
+  saveOrder(order: IOrder): void {
     this.store.dispatch(addOrder({ payload: order }));
-    // this.api.addOrUpdateOrder(order).subscribe(x => console.log(x));
   }
 
   findOrder(orderId: string): IOrder | null {

@@ -29,44 +29,34 @@ router.get('', async (req, res) => {
   }
 });
 
-router.post('', (req, res) => {
+router.post('', async (req, res) => {
+
+
+  // Order.findById(req.body,_id)
 
   console.log(req.body);
-  return res.status(200).json({
-    error: false,
-    data: []
-  })
-  // console.log(req.body);
-  // try {
-  //   let order = await Order.findOne({ id: req.body.id });
-  //   console.log(order);
-  //   if (order) {
-  //     const o = Order.findOneAndUpdate({ id: order.id }, order);
-  //     if (o) {
-  //       return res.status(200).json({
-  //         data: o,
-  //         error: false
-  //       });
-  //     } else {
-  //       return res.json(401).json({
-  //         error: true,
-  //         message: 'COULD NOT UPDATE DB'
-  //       });
-  //     }
-  //   } else {
-  //     order = new Order(req.body);
-  //     await order.save();
-  //     return res.status(201).json({
-  //       data: order,
-  //       error: false
-  //     });
-  //   }
-  // } catch (error) {
-  //   return res.status(400).json({
-  //     error: true,
-  //     message: error.message
-  //   });
-  // }
+  let order = null;
+  if (!req.body._id) {
+    order = new Order(req.body);
+    await order.save();
+  }
+  else {
+    order = await Order.findOneAndUpdate({ '_id': req.body._id }, req.body);
+  }
+
+  if (!order) {
+    return res.status(400).json({
+      error: true,
+      data: [],
+      message: 'Could not process that request'
+    });
+  } else {
+    return res.status(200).json({
+      error: false,
+      data: order
+    });
+  }
+
 });
 
 router.post('/remove', (req, res) => {

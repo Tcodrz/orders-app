@@ -11,19 +11,14 @@ import { filterOrders, loadOrders, orderRemoved, ordersLoaded, removeOrder, addO
 @Injectable()
 export class OrdersEffects {
 
-  /* TODO: fix infinte calls to api bug */
   addOrder$ = createEffect(() => this.actions$.pipe(
     ofType(addOrder),
-    tap((action) => console.log(action))
-  ))
-  // addOrder$ = createEffect(() => this.actions$.pipe(
-  //   ofType(addOrder),
-  //   mergeMap((action) => this.api.addOrUpdateOrder(action.payload)
-  //     .pipe(
-  //       map((order) => (orderAdded({ payload: order }))),
-  //       catchError(() => EMPTY)
-  //     ))
-  // ))
+    mergeMap((action) => this.api.addOrUpdateOrder(action.payload)
+      .pipe(
+        map(order => (orderAdded({ payload: order }))),
+        catchError(() => EMPTY)
+      ))
+  ));
 
   loadOrders$ = createEffect(() => this.actions$.pipe(
     ofType(loadOrders),

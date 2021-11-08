@@ -108,7 +108,7 @@ export class OrderPageComponent implements OnInit {
     const year = this.date.toString().split(' ')[3];
     const order: IOrder = {
       id: this.orderNumber,
-      date: `${month}/${day}/${year}`,
+      date: `${DateService.convertMonthNameToNumber(month)}/${day}/${year}`,
       advertiser: this.advertiser,
       contact: this.contact,
       customer: this.customer,
@@ -133,7 +133,7 @@ export class OrderPageComponent implements OnInit {
       usagePeriod: this.usagePeriodString === USAGE[1] ? 1 : this.usagePeriodString === USAGE[2] ? 2 : 0,
       files: this.files
     };
-    console.log(order);
+    // console.log(order);
     this.orderPageService.saveOrder(order);
   }
 

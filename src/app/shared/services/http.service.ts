@@ -1,7 +1,7 @@
 import { IUser } from './../models/user.model';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Observable, of, pipe } from 'rxjs';
 import { map, tap } from 'rxjs/operators';
 import { IAdvertiser } from '../models/advetiser.model';
 import { ICustomer } from '../models/customer.model';

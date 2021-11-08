@@ -14,11 +14,20 @@ const contactRoutes = require('./routes/contacts.routes');
 
 const app = express();
 
+
+
 const port = 3000;
 
 app.use(express.json());
 app.use(morgan('dev'));
 app.use(cors());
+
+app.get('/', (req, res) => {
+  return res.status(200).json({
+    error: false,
+    data: 'Server Health Check OK'
+  })
+});
 
 app.use('/auth', authroutes);
 app.use('/users', userRoutes);

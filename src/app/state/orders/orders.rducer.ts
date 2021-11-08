@@ -1,6 +1,6 @@
 import { Action, createReducer, on } from '@ngrx/store';
 import { IOrder } from './../../shared/models/order.model';
-import { filterOrders, orderRemoved, ordersLoaded, sortOrders, orderAdded } from './orders.actions';
+import { filterOrders, orderRemoved, ordersLoaded, sortOrders, orderAdded, addOrder } from './orders.actions';
 import { filter, findAndUpdate, handleSortOrders, sortByDate } from './orders.utils';
 
 export interface OrdersState {

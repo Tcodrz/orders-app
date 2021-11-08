@@ -4,7 +4,7 @@ import { FilterState } from './../filters/filter.reducer';
 
 
 export const addOrder = createAction('[Orders] Add', props<{ payload: IOrder }>());
-export const orderAdded = createAction('[Orders] Add', props<{ payload: IOrder }>());
+export const orderAdded = createAction('[Orders] Added', props<{ payload: IOrder }>());
 export const removeOrder = createAction('[Order] Remove', props<{ payload: IOrder }>());
 export const orderRemoved = createAction('[Order] Removed', props<{ payload: IOrder }>());
 export const updateOrder = createAction('[Orders] Update', props<{ payload: IOrder }>());
