@@ -22,17 +22,17 @@ export interface FilterOutput {
 })
 export class OrdersFilterComponent {
 
-  form = new FormGroup({
+  form: FormGroup = new FormGroup({
     orderNumber: new FormControl(''),
     customerName: new FormControl(''),
     advertiserName: new FormControl(''),
     narratorName: new FormControl('')
   });
-  amount = new FormGroup({
+  amount: FormGroup = new FormGroup({
     from: new FormControl(''),
     to: new FormControl('')
   });
-  range = new FormGroup({
+  range: FormGroup = new FormGroup({
     start: new FormControl(''),
     end: new FormControl('')
   });
@@ -65,6 +65,7 @@ export class OrdersFilterComponent {
     if (!this.range.value.end) {
       this.range.value.end = '';
     }
+
     let startDate = this.range.value.start.toString();
     startDate = [DateService.convertMonthNameToNumber(startDate.split(' ')[1]), startDate.split(' ')[2], startDate.split(' ')[3]];
     let endDate = this.range.value.end.toString();

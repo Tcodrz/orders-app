@@ -1,3 +1,5 @@
+import { HttpService } from 'src/app/shared/services/http.service';
+import { addOrder } from './../../state/orders/orders.actions';
 import { Injectable } from '@angular/core';
 import { select, Store } from '@ngrx/store';
 import { Observable, of } from 'rxjs';
@@ -26,7 +28,7 @@ export class OrderPageService {
   narrators$: Observable<INarrator[]> = of([]);
   orders: IOrder[] = [];
 
-  constructor(private store: Store<AppState>) {
+  constructor(private store: Store<AppState>, private api: HttpService) {
     this.store.dispatch(loadCustomers());
     this.store.dispatch(loadAdvertisers());
     this.store.dispatch(loadNarrators());
@@ -53,15 +55,15 @@ export class OrderPageService {
 
   saveOrder(order: IOrder): void {
     // this.store.dispatch({ type: 'update order' });
+
+    this.store.dispatch(addOrder({ payload: order }));
+    // this.api.addOrUpdateOrder(order).subscribe(x => console.log(x));
   }
 
   findOrder(orderId: string): IOrder | null {
+    if (!orderId) return null;
     const order = this.orders.find(o => o.id === orderId);
-    if (order) {
-      return order;
-    } else {
-      return null;
-    }
+    return order ? order : null;
   }
 
   getAdvertisers(): Observable<IAdvertiser[]> {

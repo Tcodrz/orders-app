@@ -40,7 +40,7 @@ export class FormSelectComponent {
   _options: any[] = [];
   _value: any = this._options.length >= 1 ? this._options[0] : null;
 
-  sendValue(option: any): void {
+  sendValue(option: Event): void {
     this.value = option;
     this.getValue.emit(option);
   }

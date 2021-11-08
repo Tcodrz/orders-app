@@ -13,12 +13,11 @@ export interface PriceObject {
   styleUrls: ['./order-price-form.component.css']
 })
 export class OrderPriceFormComponent {
+
   @Input() set setPrice(val: PriceObject) { this.price = Object.assign({}, val); }
   @Output() priceEvt: EventEmitter<PriceObject> = new EventEmitter();
+
   displayedColumns = ['action', 'price', 'item'];
-  // _price = 0;
-  // _discount = 0;
-  // _detailed = false;
   _prices: { id: number; name: string; price: number }[] = [];
   itemName = '';
   itemPrice = '';

@@ -1,40 +1,48 @@
 <div class="pt-3" *ngIf="filterObject">
 
-    <mat-chip-list class="d-flex flex-row justify-content-end text-right">
-        <mat-chip *ngIf="filterObject.dates.fromMonth !== currentMonth || filterObject.dates.fromYear !== currentYear">
-            תאריך
-            <fa-icon [icon]="icons.faTimes" class="ml-2 text-secondary bg-light icon" (click)="remove('date')">
-            </fa-icon>
-        </mat-chip>
-        <mat-chip *ngIf="filterObject?.narratorName">
-            קריין: {{ filterObject.narratorName}}
-            <fa-icon [icon]="icons.faTimes" class="ml-2 text-secondary bg-light icon" (click)="remove('narratorName')">
-            </fa-icon>
-        </mat-chip>
-        <mat-chip *ngIf="filterObject.toAmount">
-            עד סכום: {{ filterObject.toAmount }}
-            <fa-icon [icon]="icons.faTimes" class="ml-2 text-secondary bg-light icon" (click)="remove('toAmount')">
-            </fa-icon>
-        </mat-chip>
-        <mat-chip *ngIf="filterObject.fromAmount">
-            מסכום: {{ filterObject.fromAmount }}
-            <fa-icon [icon]="icons.faTimes" class="ml-2 text-secondary bg-light icon" (click)="remove('fromAmount')">
-            </fa-icon>
-        </mat-chip>
-        <mat-chip *ngIf="filterObject?.advertiserName">
-            פרסומאי\מזמין העבודה: {{ filterObject.advertiserName }}
-            <fa-icon [icon]="icons.faTimes" class="ml-2 text-secondary bg-light icon"
-                (click)="remove('advertiserName')"></fa-icon>
-        </mat-chip>
-        <mat-chip *ngIf="filterObject?.customerName">
-            לקוח: {{ filterObject.customerName }}
-            <fa-icon [icon]="icons.faTimes" class="ml-2 text-secondary bg-light icon" (click)="remove('customerName')">
-            </fa-icon>
-        </mat-chip>
-        <mat-chip *ngIf="filterObject?.orderNumber">
-            מספר הזמנה: {{ filterObject.orderNumber }}
-            <fa-icon [icon]="icons.faTimes" class="ml-2 text-secondary bg-light icon" (click)="remove('orderNumber')">
-            </fa-icon>
-        </mat-chip>
-    </mat-chip-list>
+  <mat-chip-list class="d-flex flex-row justify-content-end text-right">
+
+    <mat-chip *ngIf="filterObject.dates.fromMonth !== currentMonth || filterObject.dates.fromYear !== currentYear">
+      תאריך
+      <fa-icon [icon]="icons.faTimes" class="ml-2 text-secondary bg-light icon" (click)="remove('date')">
+      </fa-icon>
+    </mat-chip>
+
+    <mat-chip *ngIf="filterObject?.narratorName">
+      קריין: {{ filterObject.narratorName}}
+      <fa-icon [icon]="icons.faTimes" class="ml-2 text-secondary bg-light icon" (click)="remove('narratorName')">
+      </fa-icon>
+    </mat-chip>
+
+    <mat-chip *ngIf="filterObject.toAmount">
+      עד סכום: {{ filterObject.toAmount }}
+      <fa-icon [icon]="icons.faTimes" class="ml-2 text-secondary bg-light icon" (click)="remove('toAmount')">
+      </fa-icon>
+    </mat-chip>
+
+    <mat-chip *ngIf="filterObject.fromAmount">
+      מסכום: {{ filterObject.fromAmount }}
+      <fa-icon [icon]="icons.faTimes" class="ml-2 text-secondary bg-light icon" (click)="remove('fromAmount')">
+      </fa-icon>
+    </mat-chip>
+
+    <mat-chip *ngIf="filterObject?.advertiserName">
+      פרסומאי\מזמין העבודה: {{ filterObject.advertiserName }}
+      <fa-icon [icon]="icons.faTimes" class="ml-2 text-secondary bg-light icon" (click)="remove('advertiserName')">
+      </fa-icon>
+    </mat-chip>
+
+    <mat-chip *ngIf="filterObject?.customerName">
+      לקוח: {{ filterObject.customerName }}
+      <fa-icon [icon]="icons.faTimes" class="ml-2 text-secondary bg-light icon" (click)="remove('customerName')">
+      </fa-icon>
+    </mat-chip>
+
+    <mat-chip *ngIf="filterObject?.orderNumber">
+      מספר הזמנה: {{ filterObject.orderNumber }}
+      <fa-icon [icon]="icons.faTimes" class="ml-2 text-secondary bg-light icon" (click)="remove('orderNumber')">
+      </fa-icon>
+    </mat-chip>
+
+  </mat-chip-list>
 </div>

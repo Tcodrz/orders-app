@@ -73,7 +73,7 @@ export class OrderPageComponent implements OnInit {
     this.activeRoutes.params.subscribe((params: Params) => {
       const orderId = params['order-id'];
       const order = this.orderPageService.findOrder(orderId);
-      if (order) {
+      if (order && order.id == orderId) {
         this.orderNumber = order.id;
         this.date = new Date(order.date);
         this.customer = order.customer;
@@ -92,7 +92,6 @@ export class OrderPageComponent implements OnInit {
 
   // CATCH EVENTS
   catchPrice(price: PriceObject): void {
-    console.log(price);
     this.price = price;
   }
   catchNotes(notes: { generalNotes: string; bookkeepingNotes: string }): void {
@@ -137,19 +136,18 @@ export class OrderPageComponent implements OnInit {
     console.log(order);
     this.orderPageService.saveOrder(order);
   }
-  catchCampaign(val: string): void { this.campaign = val; }
-  catchType(val: string): void { this.type = val; }
-  catchCustomer(val: ICustomer): void { this.customer = val; }
-  catchContact(val: IContact): void { this.contact = val; }
-  catchAdvertiser(val: IAdvertiser): void {
-    this.advertiser = val;
-  }
-  catchStatus(val: string): void { this.status = val; }
-  catchNumberOfVersions(val: number): void { this.numberOfVersions = val; }
-  catchNumberOfVariations(val: number): void { this.numberOfVariations = val; }
-  catchNarratorResponsibilty(val: string): void { this.narratorsResponsibility = val; }
-  catchTextResponsibility(val: string): void { this.textResponsibility = val; }
-  catchMusicResponsibility(val: string): void { this.musicResponsibility = val; }
-  catchMusic(val: string): void { this.music = val; }
-  handleUploadFile(files: IFile[]): void { this.files = files; console.log(this.files); }
+
+  catchCampaign(val: string): void { this.campaign = val }
+  catchType(val: string): void { this.type = val }
+  catchCustomer(val: ICustomer): void { this.customer = val }
+  catchContact(val: IContact): void { this.contact = val }
+  catchAdvertiser(val: IAdvertiser): void { this.advertiser = val }
+  catchStatus(val: string): void { this.status = val }
+  catchNumberOfVersions(val: number): void { this.numberOfVersions = val }
+  catchNumberOfVariations(val: number): void { this.numberOfVariations = val }
+  catchNarratorResponsibilty(val: string): void { this.narratorsResponsibility = val }
+  catchTextResponsibility(val: string): void { this.textResponsibility = val }
+  catchMusicResponsibility(val: string): void { this.musicResponsibility = val }
+  catchMusic(val: string): void { this.music = val }
+  handleUploadFile(files: IFile[]): void { this.files = files }
 }

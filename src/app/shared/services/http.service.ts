@@ -60,4 +60,11 @@ export class HttpService {
       tap((narrators: INarrator[]) => narrators.map(n => n.price = 0))
     );
   }
+
+  addOrUpdateOrder(order: IOrder): Observable<IOrder> {
+    return this.http.post<ApiResponse>(`${this.api}/orders`, order)
+      .pipe(
+        map((resp: ApiResponse) => resp.error ? [] : resp.data)
+      );
+  }
 }

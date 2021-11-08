@@ -1,7 +1,7 @@
 @import '../order-page/order-page.component.css';
 @import '../order-list/order-list.component.css';
 
-table{ 
+table{
     width: 550px;
 }
 
@@ -9,4 +9,10 @@ table{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+}
+
+
+.form-field {
+  display: flex;
+  flex-direction: row-reverse;
 }
